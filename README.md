@@ -1,31 +1,31 @@
-# Veloura Store
+# Veloura
 
-A modern multi-page e-commerce storefront built with HTML, CSS, and JavaScript, focused on responsive design, clean interfaces, and interactive shopping experiences.
+> A modern e-commerce storefront crafted with HTML, CSS, and JavaScript.
 
 ## Overview
 
-Veloura is a frontend e-commerce project featuring a complete shopping flow with product discovery, product details, cart management, checkout, wishlist, and dashboard interfaces.
+**Veloura** is a multi-page e-commerce website designed with a focus on clean visual design, responsive layouts, and smooth user interactions.
+
+The experience includes product discovery, product details, shopping cart, checkout, wishlist, and dashboard interfaces.
 
 ## Features
 
-- Responsive e-commerce interface
-- Product listing and detail pages
+- Responsive design
+- Product browsing
+- Product details
 - Shopping cart
-- Checkout interface
+- Checkout
 - Wishlist
-- User dashboard
-- Interactive UI with JavaScript
-- Organized and reusable CSS styling
-- Responsive layouts across screen sizes
+- Dashboard
+- Interactive UI
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
+**HTML5** · **CSS3** · **JavaScript**
 
-## Project Structure
+## Structure
 
+```text
 veloura/
 ├── css/
 ├── images/
@@ -35,15 +35,5 @@ veloura/
 ├── product.html
 ├── cart.html
 ├── checkout.html
-├── dashboard.html
-└── wishlist.html
-
-## Purpose
-
-Built to strengthen practical frontend development skills through a real-world e-commerce interface, focusing on UI architecture, responsive layouts, component organization, and JavaScript-based interactions.
-
-## Author
-
-**Arfa Munam**
-
-Frontend Developer | Full-Stack Developer | AI Enthusiast
+├── wishlist.html
+└── dashboard.html

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitleTag">Product — Veloura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="breadcrumb" id="crumb"></div>
+      <div class="pdp-grid" id="pdpRoot"></div>
+
+      <div class="info-accordion" style="margin-top:50px;max-width:640px;">
+        <details open><summary>Description</summary><div class="body" id="descBody"></div></details>
+        <details><summary>Delivery Information</summary><div class="body">Standard delivery in 2–5 business days. Free shipping automatically applied on orders over $120. Express (1–2 days) available at checkout for $14.</div></details>
+        <details><summary>Return Policy</summary><div class="body">Unworn items may be returned within 30 days of delivery for a full refund. Return shipping is free — start a return anytime from your dashboard.</div></details>
+        <details><summary>Shipping Details</summary><div class="body">Ships from our fulfilment centre within 24 hours of ordering. Tracking details are emailed once your order leaves our warehouse.</div></details>
+      </div>
+
+      <!-- REVIEWS -->
+      <div style="margin-top:60px;">
+        <h2 style="font-size:26px;">Customer Reviews</h2>
+        <div class="reviews-summary" id="reviewSummary"></div>
+        <div id="reviewList"></div>
+      </div>
+
+      <!-- RELATED -->
+      <div class="section-head" style="margin-top:70px;">
+        <div><span class="eyebrow">You may also like</span><h2 style="margin-top:10px;">Related products</h2></div>
+      </div>
+      <div class="product-grid" id="relatedGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+mountChrome(null);
+
+const pid = new URLSearchParams(window.location.search).get("id") || PRODUCTS[0].id;
+const product = findProduct(pid) || PRODUCTS[0];
+const cat = categoryOf(product.category);
+let activeImg = 0, selSize = product.sizes[0], selColor = product.colors[0], qty = 1;
+
+document.getElementById("pageTitleTag").textContent = `${product.name} — Veloura`;
+document.getElementById("crumb").innerHTML = `<a href="index.html">Home</a> / <a href="shop.html?cat=${cat.id}">${cat.group}</a> / <a href="shop.html?cat=${cat.id}">${cat.name}</a> / ${product.name}`;
+document.getElementById("descBody").textContent = product.desc || `A signature Veloura piece from our ${cat.name.toLowerCase()} edit — designed for everyday wear with an emphasis on honest materials and considered construction. Sourced and finished with care, made to be kept for years rather than seasons.`;
+
+function renderPDP(){
+  const price = finalPrice(product);
+  document.getElementById("pdpRoot").innerHTML = `
+    <div class="pdp-thumbs">
+      ${product.images.map((im,i)=>`<img src="${im}" class="${i===activeImg?'active':''}" data-i="${i}" alt="${product.name} view ${i+1}">`).join("")}
+    </div>
+    <div class="pdp-main" id="pdpMain"><img src="${product.images[activeImg]}" alt="${product.name}"></div>
+    <div class="pdp-info">
+      <div class="brand" style="font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-45);">${product.brand}</div>
+      <h1>${product.name}</h1>
+      <div class="pdp-meta">
+        <span class="pc-rating" style="margin-top:0;"><span class="stars">${starString(product.rating)}</span> ${product.rating} · ${product.reviews} reviews</span>
+        ${product.isNew? `<span class="hangtag gold">New</span>`:""}
+        ${!product.stock ? `<span class="hangtag ghost">Out of stock</span>` : `<span class="hangtag ghost" style="color:var(--success);border-color:var(--success);">In stock</span>`}
+      </div>
+      <div class="pdp-price">
+        <span class="hangtag" style="font-size:16px;padding:8px 16px 8px 20px;">
+          ${product.discount ? `<span class="strike">$${product.price}</span>` : ""}$${price}
+        </span>
+        ${product.discount ? `<span class="hangtag sale">Save ${product.discount}%</span>`:""}
+      </div>
+
+      <div class="opt-row">
+        <div class="opt-label"><span>Color</span></div>
+        <div class="swatch-row">
+          ${product.colors.map(c=>`<span class="swatch ${c===selColor?'active':''}" data-color="${c}" style="background:${c}"></span>`).join("")}
+        </div>
+      </div>
+
+      <div class="opt-row">
+        <div class="opt-label"><span>Size</span><a href="#" style="text-decoration:underline;color:var(--ink-45);">Size Guide</a></div>
+        <div class="size-grid">
+          ${product.sizes.map(s=>`<button class="size-opt ${s===selSize?'active':''}" data-size="${s}">${s}</button>`).join("")}
+        </div>
+      </div>
+
+      <div class="opt-row">
+        <div class="opt-label"><span>Quantity</span></div>
+        <div class="qty-stepper">
+          <button id="qtyMinus">−</button><span id="qtyVal">${qty}</span><button id="qtyPlus">+</button>
+        </div>
+      </div>
+
+      <div class="pdp-cta-row">
+        <button class="btn btn-primary" id="addCartBtn" ${!product.stock?'disabled':''}>Add to Cart</button>
+        <a href="checkout.html" class="btn btn-outline" id="buyNowBtn" ${!product.stock?'style="pointer-events:none;opacity:.4;"':''}>Buy Now</a>
+        <button class="icon-btn" id="wishBtn" aria-label="Wishlist">${ICONS.heart}</button>
+      </div>
+      <p style="font-size:12.5px;color:var(--ink-45);">Free shipping on orders over $120 · 30-day free returns</p>
+    </div>`;
+  wirePDPEvents();
+}
+
+function wirePDPEvents(){
+  document.querySelectorAll(".pdp-thumbs img").forEach(im=>im.addEventListener("click", ()=>{ activeImg=+im.dataset.i; renderPDP(); }));
+  document.getElementById("pdpMain").addEventListener("click", (e)=> e.currentTarget.classList.toggle("zoomed"));
+  document.querySelectorAll("#pdpRoot .swatch").forEach(s=>s.addEventListener("click", ()=>{ selColor=s.dataset.color; renderPDP(); }));
+  document.querySelectorAll(".size-opt").forEach(s=>s.addEventListener("click", ()=>{ selSize=s.dataset.size; renderPDP(); }));
+  document.getElementById("qtyMinus").addEventListener("click", ()=>{ if(qty>1) qty--; document.getElementById("qtyVal").textContent=qty; });
+  document.getElementById("qtyPlus").addEventListener("click", ()=>{ qty++; document.getElementById("qtyVal").textContent=qty; });
+  document.getElementById("addCartBtn").addEventListener("click", ()=> addToCart(product.id, {size:selSize, color:selColor, qty}));
+  document.getElementById("buyNowBtn").addEventListener("click", ()=> addToCart(product.id, {size:selSize, color:selColor, qty}));
+  const wishBtn = document.getElementById("wishBtn");
+  wishBtn.classList.toggle("active", isWished(product.id));
+  if(isWished(product.id)) wishBtn.style.color = "var(--aubergine)";
+  wishBtn.addEventListener("click", ()=>{ toggleWishlist(product.id); wishBtn.style.color = isWished(product.id) ? "var(--aubergine)":"var(--ink)"; });
+}
+
+function renderReviews(){
+  const dist = [68,20,7,3,2];
+  document.getElementById("reviewSummary").innerHTML = `
+    <div class="review-score"><b>${product.rating}</b><div class="stars">${starString(product.rating)}</div><div style="font-size:12px;color:var(--ink-45);margin-top:6px;">${product.reviews} reviews</div></div>
+    <div style="flex:1;">
+      ${[5,4,3,2,1].map((n,i)=>`<div class="bar-row"><span style="width:14px;">${n}</span><div class="bar-track"><div class="bar-fill" style="width:${dist[i]}%"></div></div><span style="width:30px;color:var(--ink-45);">${dist[i]}%</span></div>`).join("")}
+    </div>`;
+  const sample = [
+    {who:"Amara K.", stars:5, text:"The construction is genuinely a level above what I expected at this price — fits true to size and the fabric feels substantial."},
+    {who:"Daniel R.", stars:5, text:"Ordered a size up based on the guide and it was spot on. Arrived two days early, beautifully packaged."},
+    {who:"Priya S.", stars:4, text:"Lovely piece, only note is the color runs slightly darker in person than in the photos."},
+  ];
+  document.getElementById("reviewList").innerHTML = sample.map(r=>`
+    <div class="review-card">
+      <div class="stars">${starString(r.stars)}</div>
+      <p style="margin-top:8px;font-size:14px;">${r.text}</p>
+      <div class="who">${r.who} · Verified Buyer</div>
+    </div>`).join("");
+}
+
+renderPDP();
+renderReviews();
+renderGrid("relatedGrid", relatedProducts(product, 4));
+initReveal();
+</script>
+</body>
+</html>

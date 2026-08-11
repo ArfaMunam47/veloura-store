@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wishlist — Veloura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Wishlist</div>
+      <div class="section-head">
+        <div><span class="eyebrow">Saved for later</span><h2 style="margin-top:10px;">Your Wishlist</h2></div>
+      </div>
+      <div class="wish-grid" id="wishGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+mountChrome("Wishlist");
+
+function renderWishlistPage(){
+  const ids = getWishlist();
+  const grid = document.getElementById("wishGrid");
+  if(!ids.length){
+    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;padding:100px 20px;">
+      ${ICONS.heart.replace('viewBox="0 0 24 24"','viewBox="0 0 24 24" width="52" height="52"')}
+      <h3 style="margin:16px 0 8px;">Nothing saved yet</h3>
+      <p>Tap the heart on any product to save it here.</p>
+      <a href="shop.html" class="btn btn-primary" style="margin-top:20px;">Explore Products</a>
+    </div>`;
+    return;
+  }
+  grid.innerHTML = ids.map(id=>{
+    const p = findProduct(id); if(!p) return "";
+    return `<div class="product-card reveal in">
+      <div class="pc-media">
+        <a href="product.html?id=${p.id}"><img class="img-a" src="${p.images[0]}" alt="${p.name}"><img class="img-b" src="${p.images[1]}" alt="${p.name}"></a>
+        <button class="pc-fav active" data-id="${p.id}" onclick="toggleWishlist('${p.id}')">${ICONS.heart}</button>
+        <div class="pc-actions">
+          <button class="btn btn-primary" onclick="moveWishToCart('${p.id}')">Move to Cart</button>
+        </div>
+      </div>
+      <div class="pc-body">
+        <div class="brand">${p.brand}</div>
+        <a href="product.html?id=${p.id}"><h4>${p.name}</h4></a>
+        <div class="pc-price-row"><span class="hangtag">${p.discount?`<span class="strike">$${p.price}</span>`:''}$${finalPrice(p)}</span></div>
+      </div>
+    </div>`;
+  }).join("");
+}
+window.renderWishlistPage = renderWishlistPage;
+renderWishlistPage();
+initReveal();
+</script>
+</body>
+</html>

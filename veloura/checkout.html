@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Veloura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <section class="section-tight">
+    <div class="wrap" style="max-width:1080px;">
+      <div class="breadcrumb"><a href="index.html">Home</a> / <a href="cart.html">Bag</a> / Checkout</div>
+      <h2 style="font-size:32px;margin-bottom:28px;">Checkout</h2>
+
+      <div class="co-steps">
+        <div class="co-step active" id="step1Tab">1 · Shipping</div>
+        <div class="co-step" id="step2Tab">2 · Delivery</div>
+        <div class="co-step" id="step3Tab">3 · Payment</div>
+      </div>
+
+      <div class="checkout-grid" id="checkoutRoot"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+mountChrome(null);
+
+let step = 1;
+let delivery = "standard";
+let payMethod = "card";
+let couponApplied = null;
+
+function summaryPanel(){
+  const cart = getCart().filter(c=>!c.saved);
+  let subtotal = 0;
+  const rows = cart.map(c=>{ const p=findProduct(c.id); const line=finalPrice(p)*c.qty; subtotal+=line; return `
+    <div class="co-summary-item">
+      <img src="${p.images[0]}" alt="">
+      <div style="flex:1;"><div style="font-size:13.5px;font-weight:600;">${p.name}</div><div style="font-size:12px;color:var(--ink-45);">Qty ${c.qty} · ${c.size}</div></div>
+      <span style="font-family:var(--font-mono);font-size:13px;">$${line.toFixed(2)}</span>
+    </div>`; }).join("");
+  const shippingCost = delivery==="express" ? 14 : (subtotal>120?0:9.5);
+  const discount = couponApplied ? subtotal*couponApplied.pct : 0;
+  const tax = (subtotal-discount)*0.07;
+  const total = subtotal - discount + tax + shippingCost;
+  return { html: `
+    <div class="panel" style="position:sticky;top:100px;">
+      <h3 style="font-size:16px;margin-bottom:16px;">Order Summary</h3>
+      ${rows || '<p style="color:var(--ink-45);font-size:13px;">Your bag is empty.</p>'}
+      <div class="coupon-row">
+        <input type="text" id="coCouponInput" placeholder="Coupon code">
+        <button class="btn btn-outline btn-sm" id="coCouponBtn">Apply</button>
+      </div>
+      <div class="sum-row"><span>Subtotal</span><span>$${subtotal.toFixed(2)}</span></div>
+      ${discount>0?`<div class="sum-row" style="color:var(--success);"><span>Discount</span><span>−$${discount.toFixed(2)}</span></div>`:""}
+      <div class="sum-row"><span>Estimated Tax</span><span>$${tax.toFixed(2)}</span></div>
+      <div class="sum-row"><span>Shipping (${delivery==="express"?"Express":"Standard"})</span><span>${shippingCost===0?'Free':'$'+shippingCost.toFixed(2)}</span></div>
+      <div class="sum-row total"><span>Total</span><span>$${total.toFixed(2)}</span></div>
+    </div>`, total, cartEmpty: cart.length===0 };
+}
+
+function renderStep(){
+  document.querySelectorAll(".co-step").forEach((s,i)=>s.classList.toggle("active", i===step-1));
+  const { html: summaryHTML, cartEmpty } = summaryPanel();
+  let left = "";
+
+  if(step===1){
+    left = `<div class="panel">
+      <h3 style="font-size:16px;margin-bottom:20px;">Shipping Address</h3>
+      <div class="field-row">
+        <div class="field"><label>First Name</label><input type="text" value="Arfa"></div>
+        <div class="field"><label>Last Name</label><input type="text" value="Malik"></div>
+      </div>
+      <div class="field"><label>Address</label><input type="text" placeholder="House / Street"></div>
+      <div class="field-row">
+        <div class="field"><label>City</label><input type="text" placeholder="Hafizabad"></div>
+        <div class="field"><label>Postal Code</label><input type="text" placeholder="51000"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Country</label><select><option>Pakistan</option><option>United States</option><option>United Kingdom</option><option>UAE</option></select></div>
+        <div class="field"><label>Phone</label><input type="text" placeholder="+92 3XX XXXXXXX"></div>
+      </div>
+      <button class="btn btn-primary" style="margin-top:8px;" onclick="goStep(2)" ${cartEmpty?'disabled':''}>Continue to Delivery</button>
+    </div>`;
+  } else if(step===2){
+    left = `<div class="panel">
+      <h3 style="font-size:16px;margin-bottom:20px;">Delivery Method</h3>
+      <div class="method-card ${delivery==='standard'?'active':''}" onclick="setDelivery('standard')">
+        <input type="radio" name="deliv" ${delivery==='standard'?'checked':''}>
+        <div style="flex:1;"><div style="font-weight:700;font-size:14px;">Standard Shipping</div><div style="font-size:12px;color:var(--ink-45);">2–5 business days</div></div>
+        <span class="hangtag ghost">Free over $120</span>
+      </div>
+      <div class="method-card ${delivery==='express'?'active':''}" onclick="setDelivery('express')">
+        <input type="radio" name="deliv" ${delivery==='express'?'checked':''}>
+        <div style="flex:1;"><div style="font-weight:700;font-size:14px;">Express Shipping</div><div style="font-size:12px;color:var(--ink-45);">1–2 business days</div></div>
+        <span class="hangtag">$14.00</span>
+      </div>
+      <div style="display:flex;gap:12px;margin-top:20px;">
+        <button class="btn btn-outline" onclick="goStep(1)">Back</button>
+        <button class="btn btn-primary" style="flex:1;" onclick="goStep(3)">Continue to Payment</button>
+      </div>
+    </div>`;
+  } else {
+    left = `<div class="panel">
+      <h3 style="font-size:16px;margin-bottom:20px;">Payment Method</h3>
+      <div class="method-card ${payMethod==='card'?'active':''}" onclick="setPay('card')">
+        <input type="radio" name="pay" ${payMethod==='card'?'checked':''}>
+        <div style="flex:1;"><div style="font-weight:700;font-size:14px;">Credit / Debit Card</div><div style="font-size:12px;color:var(--ink-45);">Visa, Mastercard, Amex</div></div>
+      </div>
+      <div class="method-card ${payMethod==='wallet'?'active':''}" onclick="setPay('wallet')">
+        <input type="radio" name="pay" ${payMethod==='wallet'?'checked':''}>
+        <div style="flex:1;"><div style="font-weight:700;font-size:14px;">Digital Wallet</div><div style="font-size:12px;color:var(--ink-45);">Apple Pay / Google Pay</div></div>
+      </div>
+      <div class="method-card ${payMethod==='cod'?'active':''}" onclick="setPay('cod')">
+        <input type="radio" name="pay" ${payMethod==='cod'?'checked':''}>
+        <div style="flex:1;"><div style="font-weight:700;font-size:14px;">Cash on Delivery</div><div style="font-size:12px;color:var(--ink-45);">Pay when your order arrives</div></div>
+      </div>
+      ${payMethod==='card' ? `
+      <div class="field" style="margin-top:16px;"><label>Card Number</label><input type="text" placeholder="1234 5678 9012 3456"></div>
+      <div class="field-row">
+        <div class="field"><label>Expiry</label><input type="text" placeholder="MM/YY"></div>
+        <div class="field"><label>CVC</label><input type="text" placeholder="123"></div>
+      </div>` : ""}
+      <div style="display:flex;gap:12px;margin-top:20px;">
+        <button class="btn btn-outline" onclick="goStep(2)">Back</button>
+        <button class="btn btn-primary" style="flex:1;" onclick="placeOrder()" ${cartEmpty?'disabled':''}>Place Order</button>
+      </div>
+    </div>`;
+  }
+
+  document.getElementById("checkoutRoot").innerHTML = left + summaryHTML;
+  const cb = document.getElementById("coCouponBtn");
+  if(cb) cb.addEventListener("click", ()=>{
+    const val = document.getElementById("coCouponInput").value.trim().toUpperCase();
+    couponApplied = val==="VELOURA10" ? {pct:.1} : null;
+    showToast(val==="VELOURA10" ? "Coupon applied — 10% off" : "Invalid coupon code");
+    renderStep();
+  });
+}
+function goStep(n){ step=n; renderStep(); window.scrollTo({top:0, behavior:"smooth"}); }
+function setDelivery(v){ delivery=v; renderStep(); }
+function setPay(v){ payMethod=v; renderStep(); }
+
+function placeOrder(){
+  writeStore(STORE_KEYS.cart, getCart().filter(c=>c.saved));
+  updateBadges();
+  document.getElementById("checkoutRoot").innerHTML = `
+    <div class="panel reveal in" style="grid-column:1/-1;text-align:center;padding:70px 30px;">
+      <div style="width:60px;height:60px;border-radius:50%;background:var(--success);color:white;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <h2 style="font-size:28px;">Order Confirmed</h2>
+      <p style="color:var(--ink-70);margin-top:10px;">Thank you — your order <b>#VL-${Math.floor(10000+Math.random()*89999)}</b> has been placed and a confirmation has been sent to your email.</p>
+      <div style="display:flex;gap:14px;justify-content:center;margin-top:28px;">
+        <a href="dashboard.html#orders" class="btn btn-primary">View Orders</a>
+        <a href="shop.html" class="btn btn-outline">Continue Shopping</a>
+      </div>
+    </div>`;
+  document.querySelectorAll(".co-step").forEach(s=>s.classList.remove("active"));
+}
+
+renderStep();
+initReveal();
+</script>
+</body>
+</html>

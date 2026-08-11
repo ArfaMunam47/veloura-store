@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Dashboard — Veloura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Dashboard</div>
+      <h2 style="font-size:32px;margin-bottom:8px;" id="welcomeMsg">Welcome back, Arfa</h2>
+      <p style="color:var(--ink-70);margin-bottom:36px;">Here's what's happening with your account.</p>
+
+      <div class="dash-layout">
+        <aside class="dash-side">
+          <div class="dash-profile">
+            <div class="dash-avatar">A</div>
+            <div><div style="font-weight:700;font-size:14px;">Arfa Malik</div><div style="font-size:12px;color:var(--ink-45);">Member since 2024</div></div>
+          </div>
+          <nav class="dash-nav">
+            <a href="#overview" class="tab-link active" data-tab="overview">${ICONS.user} Overview</a>
+            <a href="#orders" class="tab-link" data-tab="orders">${ICONS.box} Orders</a>
+            <a href="#wishlist" class="tab-link" data-tab="wishlist">${ICONS.heart} Wishlist</a>
+            <a href="#addresses" class="tab-link" data-tab="addresses">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Saved Addresses</a>
+            <a href="#payments" class="tab-link" data-tab="payments">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+              Payment Methods</a>
+            <a href="#notifications" class="tab-link" data-tab="notifications">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 00-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg>
+              Notifications</a>
+            <a href="#settings" class="tab-link" data-tab="settings">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 01-4 0v-.1a1.7 1.7 0 00-1-1.6 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.5-1H3a2 2 0 010-4h.1a1.7 1.7 0 001.5-1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3H9a1.7 1.7 0 001-1.5V3a2 2 0 014 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9V9a1.7 1.7 0 001.5 1H21a2 2 0 010 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg>
+              Account Settings</a>
+          </nav>
+        </aside>
+
+        <div id="tabContent"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+mountChrome("Dashboard");
+
+const ORDERS = [
+  { id:"VL-10432", date:"July 18, 2026", status:"transit", items:[PRODUCTS[0], PRODUCTS[4]], total:365.15, step:2 },
+  { id:"VL-10387", date:"July 6, 2026", status:"delivered", items:[PRODUCTS[17]], total:312.80, step:3 },
+  { id:"VL-10299", date:"June 21, 2026", status:"delivered", items:[PRODUCTS[19], PRODUCTS[21]], total:337.60, step:3 },
+  { id:"VL-10201", date:"July 24, 2026", status:"processing", items:[PRODUCTS[6]], total:268.00, step:0 },
+];
+const ADDRESSES = [
+  { label:"Home", name:"Arfa Malik", line:"House 12, Model Town", city:"Hafizabad, Punjab, PK", def:true },
+  { label:"Studio", name:"Arfa Malik", line:"Suite 4, Commercial Plaza", city:"Lahore, Punjab, PK", def:false },
+];
+
+function statusLabel(s){ return s==="transit" ? "In Transit" : s==="delivered" ? "Delivered" : "Processing"; }
+
+const TABS = {
+  overview(){
+    return `
+    <div>
+      <div class="stat-grid">
+        <div class="stat-card"><b>${ORDERS.length}</b><span>Total Orders</span></div>
+        <div class="stat-card"><b>${getWishlist().length}</b><span>Wishlist Items</span></div>
+        <div class="stat-card"><b>$${ORDERS.reduce((s,o)=>s+o.total,0).toFixed(0)}</b><span>Lifetime Spend</span></div>
+        <div class="stat-card"><b>${ADDRESSES.length}</b><span>Saved Addresses</span></div>
+      </div>
+
+      <div class="panel" style="margin-bottom:24px;">
+        <h3 style="font-size:16px;margin-bottom:16px;">Track your latest order</h3>
+        ${trackWidget(ORDERS[0])}
+      </div>
+
+      <h3 style="font-size:16px;margin-bottom:16px;">Recently viewed</h3>
+      <div class="product-grid">${PRODUCTS.slice(0,4).map(productCardHTML).join("")}</div>
+    </div>`;
+  },
+  orders(){
+    return `<div>
+      <h3 style="font-size:18px;margin-bottom:18px;">Order History</h3>
+      ${ORDERS.map(o=>`
+        <div class="order-row">
+          <img src="${o.items[0].images[0]}" alt="">
+          <div style="flex:1;">
+            <div style="display:flex;justify-content:space-between;">
+              <div>
+                <div style="font-weight:700;font-size:14px;">${o.id}</div>
+                <div style="font-size:12px;color:var(--ink-45);">${o.date} · ${o.items.length} item${o.items.length>1?'s':''}</div>
+              </div>
+              <span class="status-pill ${o.status}">${statusLabel(o.status)}</span>
+            </div>
+            <div style="margin-top:10px;display:flex;justify-content:space-between;align-items:center;">
+              <span class="hangtag">$${o.total.toFixed(2)}</span>
+              <button class="btn btn-outline btn-sm" onclick="toggleTrack('${o.id}')">Track Order</button>
+            </div>
+            <div id="track-${o.id}" style="display:none;margin-top:16px;">${trackWidget(o)}</div>
+          </div>
+        </div>`).join("")}
+    </div>`;
+  },
+  wishlist(){
+    const ids = getWishlist();
+    return `<div>
+      <h3 style="font-size:18px;margin-bottom:18px;">Wishlist (${ids.length})</h3>
+      ${ids.length ? `<div class="product-grid">${ids.map(id=>productCardHTML(findProduct(id))).join("")}</div>` : `<p style="color:var(--ink-45);">No items saved yet. <a href="shop.html" style="text-decoration:underline;">Browse products</a></p>`}
+    </div>`;
+  },
+  addresses(){
+    return `<div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
+        <h3 style="font-size:18px;">Saved Addresses</h3>
+        <button class="btn btn-outline btn-sm" onclick="showToast('Address form would open here')">+ Add Address</button>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        ${ADDRESSES.map(a=>`
+          <div class="addr-card ${a.def?'default':''}">
+            ${a.def?'<span class="addr-badge">Default</span>':''}
+            <div style="font-weight:700;font-size:14px;">${a.label}</div>
+            <p style="font-size:13.5px;color:var(--ink-70);margin-top:8px;">${a.name}<br>${a.line}<br>${a.city}</p>
+            <div style="display:flex;gap:14px;margin-top:14px;">
+              <button class="link-btn" onclick="showToast('Edit address form would open here')">Edit</button>
+              <button class="link-btn" onclick="showToast('Address removed')">Remove</button>
+            </div>
+          </div>`).join("")}
+      </div>
+    </div>`;
+  },
+  payments(){
+    return `<div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
+        <h3 style="font-size:18px;">Payment Methods</h3>
+        <button class="btn btn-outline btn-sm" onclick="showToast('Add card form would open here')">+ Add Card</button>
+      </div>
+      <div class="pay-card"><div class="card-chip"></div><div style="flex:1;"><div style="font-weight:700;font-size:14px;">Visa •••• 4471</div><div style="font-size:12px;color:var(--ink-45);">Expires 09/28</div></div><span class="hangtag ghost">Default</span></div>
+      <div class="pay-card"><div class="card-chip" style="background:linear-gradient(135deg,var(--gold),var(--gold-dark));"></div><div style="flex:1;"><div style="font-weight:700;font-size:14px;">Mastercard •••• 8823</div><div style="font-size:12px;color:var(--ink-45);">Expires 02/27</div></div></div>
+    </div>`;
+  },
+  notifications(){
+    const rows = [["Order updates","Shipping and delivery status"],["Price drop alerts","When wishlist items go on sale"],["New arrivals","Weekly new-in edits"],["Newsletter","Style edits and stories"]];
+    return `<div class="panel">
+      <h3 style="font-size:18px;margin-bottom:8px;">Notification Preferences</h3>
+      ${rows.map((r,i)=>`
+        <div class="notif-row">
+          <div><div style="font-weight:600;font-size:13.5px;">${r[0]}</div><div style="font-size:12px;color:var(--ink-45);">${r[1]}</div></div>
+          <button class="toggle ${i<2?'on':''}" onclick="this.classList.toggle('on')"></button>
+        </div>`).join("")}
+    </div>`;
+  },
+  settings(){
+    return `<div class="panel">
+      <h3 style="font-size:18px;margin-bottom:20px;">Account Settings</h3>
+      <div class="field-row">
+        <div class="field"><label>Full Name</label><input type="text" value="Arfa Malik"></div>
+        <div class="field"><label>Email</label><input type="email" value="arfa@example.com"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Phone</label><input type="text" value="+92 300 0000000"></div>
+        <div class="field"><label>Language</label><select><option>English</option><option>Urdu</option></select></div>
+      </div>
+      <button class="btn btn-primary" onclick="showToast('Settings saved')">Save Changes</button>
+    </div>`;
+  }
+};
+
+function trackWidget(o){
+  const steps = ["Order Placed","Processing","Shipped","Delivered"];
+  return `<div class="track-line">
+    ${steps.map((s,i)=>`<div class="track-step ${i<=o.step?'done':''}"><div class="dot"></div><span>${s}</span></div>`).join("")}
+  </div>`;
+}
+function toggleTrack(id){ const el=document.getElementById("track-"+id); el.style.display = el.style.display==="none"?"block":"none"; }
+
+function renderTab(tab){
+  document.getElementById("tabContent").innerHTML = TABS[tab]();
+  document.querySelectorAll(".tab-link").forEach(t=>t.classList.toggle("active", t.dataset.tab===tab));
+  updateBadges();
+}
+document.querySelectorAll(".tab-link").forEach(t=>t.addEventListener("click", (e)=>{ e.preventDefault(); renderTab(t.dataset.tab); history.replaceState(null,"","#"+t.dataset.tab); }));
+
+const initial = window.location.hash.replace("#","") || "overview";
+renderTab(TABS[initial] ? initial : "overview");
+initReveal();
+</script>
+</body>
+</html>

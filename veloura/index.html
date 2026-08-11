@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veloura — Considered Luxury, Made to Last</title>
+<meta name="description" content="Veloura is a premium fashion destination for women, men and children — traditional and western wear, shoes, jewelry and accessories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Autumn Collection — 01</span>
+        <h1>Quiet luxury,<br><i>worn daily.</i></h1>
+        <p>Considered clothing, footwear and accessories for women, men and children — cut from honest materials and built to outlast a season.</p>
+        <div class="hero-actions">
+          <a href="shop.html" class="btn btn-primary">Shop Now</a>
+          <a href="shop.html?filter=new" class="btn btn-outline">New Arrivals</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>240+</b><span>Curated Pieces</span></div>
+          <div><b>4.8</b><span>Average Rating</span></div>
+          <div><b>18</b><span>Countries Shipped</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <img src="https://picsum.photos/seed/veloura-hero/1000/1250" alt="Veloura seasonal look">
+        <div class="float-card a"><span class="hangtag gold">-20% Today</span></div>
+        <div class="float-card b">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:34px;height:34px;border-radius:50%;background:var(--paper);display:flex;align-items:center;justify-content:center;">✓</div>
+            <div><div style="font-size:12px;font-weight:700;">Order Confirmed</div><div style="font-size:11px;color:var(--ink-45);">Arriving Thursday</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Shop by category</span>
+          <h2 style="margin-top:10px;">Find your section</h2>
+        </div>
+        <a href="shop.html" class="view-all">View All Categories</a>
+      </div>
+      <div class="cat-tabs reveal">
+        <button class="cat-tab active" data-group="all">All</button>
+        <button class="cat-tab" data-group="Women">Women</button>
+        <button class="cat-tab" data-group="Men">Men</button>
+        <button class="cat-tab" data-group="Children">Children</button>
+      </div>
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Handpicked</span>
+          <h2 style="margin-top:10px;">Featured this week</h2>
+          <p>A rotating edit of our best-reviewed pieces across the whole collection.</p>
+        </div>
+        <a href="shop.html" class="view-all">Shop All</a>
+      </div>
+      <div class="product-grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- EDITORIAL BANNER -->
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="reveal" style="position:relative;border-radius:var(--radius-l);overflow:hidden;min-height:420px;display:flex;align-items:center;">
+        <img src="https://picsum.photos/seed/veloura-editorial/1600/900" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        <div style="position:absolute;inset:0;background:linear-gradient(90deg, rgba(11,11,12,.78) 0%, rgba(11,11,12,.15) 65%);"></div>
+        <div style="position:relative;padding:60px;max-width:480px;color:var(--ivory);">
+          <span class="eyebrow" style="color:var(--gold);">Limited run</span>
+          <h2 style="font-size:38px;margin-top:12px;color:var(--ivory);">The Ceremonial Edit</h2>
+          <p style="margin-top:16px;color:rgba(250,248,244,.8);">Hand-finished traditional wear for the season's occasions — woven by artisan collectives in limited quantities.</p>
+          <a href="shop.html?cat=women-traditional" class="btn btn-gold" style="margin-top:26px;">Explore the Edit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Just landed</span>
+          <h2 style="margin-top:10px;">New arrivals</h2>
+        </div>
+        <a href="shop.html?filter=new" class="view-all">View All</a>
+      </div>
+      <div class="product-grid" id="newGrid"></div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="section-tight">
+    <div class="wrap" style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+      <div class="panel reveal"><div class="eyebrow">Shipping</div><h3 style="font-size:18px;margin-top:10px;">Free over $120</h3><p style="color:var(--ink-70);font-size:13.5px;margin-top:6px;">2–5 business days, worldwide.</p></div>
+      <div class="panel reveal"><div class="eyebrow">Returns</div><h3 style="font-size:18px;margin-top:10px;">30-day returns</h3><p style="color:var(--ink-70);font-size:13.5px;margin-top:6px;">Free, no questions asked.</p></div>
+      <div class="panel reveal"><div class="eyebrow">Materials</div><h3 style="font-size:18px;margin-top:10px;">Responsibly sourced</h3><p style="color:var(--ink-70);font-size:13.5px;margin-top:6px;">Traceable fabric and leather.</p></div>
+      <div class="panel reveal"><div class="eyebrow">Support</div><h3 style="font-size:18px;margin-top:10px;">Real humans</h3><p style="color:var(--ink-70);font-size:13.5px;margin-top:6px;">Chat with stylists, 7 days a week.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+  mountChrome("Home");
+
+  function renderCategories(group){
+    const list = group==="all" ? CATEGORIES : CATEGORIES.filter(c=>c.group===group);
+    document.getElementById("catGrid").innerHTML = list.slice(0,8).map(categoryCardHTML).join("");
+  }
+  renderCategories("all");
+  document.querySelectorAll(".cat-tab").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      document.querySelectorAll(".cat-tab").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      renderCategories(btn.dataset.group);
+    });
+  });
+
+  renderGrid("featuredGrid", [...PRODUCTS].sort((a,b)=>b.rating-a.rating).slice(0,4));
+  renderGrid("newGrid", PRODUCTS.filter(p=>p.isNew).slice(0,4));
+
+  initReveal();
+</script>
+</body>
+</html>

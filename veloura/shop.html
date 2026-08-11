@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop All — Veloura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main>
+  <section class="section-tight">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / <span id="crumbLabel">Shop All</span></div>
+
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" id="pageEyebrow">Full collection</span>
+          <h2 style="margin-top:10px;" id="pageTitle">Shop All</h2>
+        </div>
+      </div>
+
+      <div class="shop-layout">
+        <!-- FILTERS -->
+        <aside class="filters">
+          <div class="filter-group" open>
+            <details open>
+            <summary>Category</summary>
+            <div class="filter-opts" id="filterCategory"></div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Gender</summary>
+            <div class="filter-opts" id="filterGender">
+              <label><input type="checkbox" value="Women"> Women</label>
+              <label><input type="checkbox" value="Men"> Men</label>
+              <label><input type="checkbox" value="Children"> Children</label>
+            </div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Price</summary>
+            <div class="range-row">
+              <span>$0</span>
+              <input type="range" id="priceRange" min="0" max="350" value="350" style="flex:1;accent-color:var(--aubergine)">
+              <span id="priceVal">$350</span>
+            </div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Color</summary>
+            <div class="swatch-row" id="filterColor"></div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Brand</summary>
+            <div class="filter-opts" id="filterBrand"></div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Rating</summary>
+            <div class="filter-opts">
+              <label><input type="radio" name="rating" value="0" checked> Any rating</label>
+              <label><input type="radio" name="rating" value="4.5"> 4.5 &amp; up</label>
+              <label><input type="radio" name="rating" value="4"> 4.0 &amp; up</label>
+            </div>
+            </details>
+          </div>
+          <div class="filter-group">
+            <details>
+            <summary>Availability</summary>
+            <div class="filter-opts">
+              <label><input type="checkbox" id="filterNew"> New Arrival</label>
+              <label><input type="checkbox" id="filterSale"> On Discount</label>
+            </div>
+            </details>
+          </div>
+          <button class="btn btn-outline btn-block btn-sm" style="margin-top:18px;" id="clearFilters">Clear All Filters</button>
+        </aside>
+
+        <!-- RESULTS -->
+        <div>
+          <div class="shop-toolbar">
+            <span id="resultCount" style="font-size:13px;color:var(--ink-45);"></span>
+            <select id="sortSelect">
+              <option value="relevance">Sort: Relevance</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="rating">Highest Rated</option>
+              <option value="new">Newest</option>
+            </select>
+          </div>
+          <div class="active-filters" id="activeFilters"></div>
+          <div class="product-grid" id="shopGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="drawer-root"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/cards.js"></script>
+<script>
+mountChrome("Categories");
+
+const params = new URLSearchParams(window.location.search);
+let state = {
+  cat: params.get("cat") || null,
+  q: params.get("q") || "",
+  genders: new Set(),
+  colors: new Set(),
+  brands: new Set(),
+  minRating: 0,
+  maxPrice: 350,
+  onlyNew: params.get("filter")==="new",
+  onlySale: params.get("filter")==="sale",
+  sort: "relevance"
+};
+
+// build category filter list
+document.getElementById("filterCategory").innerHTML = CATEGORIES.map(c=>`
+  <label><input type="checkbox" class="cat-check" value="${c.id}" ${state.cat===c.id?'checked':''}> ${c.group} — ${c.name}</label>
+`).join("");
+
+// brand list (unique)
+const brands = [...new Set(PRODUCTS.map(p=>p.brand))];
+document.getElementById("filterBrand").innerHTML = brands.map(b=>`<label><input type="checkbox" class="brand-check" value="${b}"> ${b}</label>`).join("");
+
+// color swatches (unique)
+const colors = [...new Set(PRODUCTS.flatMap(p=>p.colors))];
+document.getElementById("filterColor").innerHTML = colors.map(c=>`<span class="swatch" style="background:${c}" data-color="${c}"></span>`).join("");
+
+function updateHeader(){
+  if(state.q){ document.getElementById("pageTitle").textContent = `Results for “${state.q}”`; document.getElementById("pageEyebrow").textContent="Search"; document.getElementById("crumbLabel").textContent="Search"; return; }
+  if(state.onlyNew){ document.getElementById("pageTitle").textContent = "New Arrivals"; document.getElementById("crumbLabel").textContent="New Arrivals"; return; }
+  if(state.onlySale){ document.getElementById("pageTitle").textContent = "Deals & Discounts"; document.getElementById("crumbLabel").textContent="Deals"; return; }
+  const catChecks = [...document.querySelectorAll(".cat-check:checked")];
+  if(catChecks.length===1){
+    const c = categoryOf(catChecks[0].value);
+    document.getElementById("pageTitle").textContent = c.name; document.getElementById("crumbLabel").textContent = c.name;
+  } else {
+    document.getElementById("pageTitle").textContent = "Shop All"; document.getElementById("crumbLabel").textContent="Shop All";
+  }
+}
+
+function applyFilters(){
+  let list = [...PRODUCTS];
+  const catChecks = [...document.querySelectorAll(".cat-check:checked")].map(c=>c.value);
+  if(catChecks.length) list = list.filter(p=>catChecks.includes(p.category));
+  if(state.genders.size) list = list.filter(p=> state.genders.has(categoryOf(p.category).group));
+  if(state.q) list = list.filter(p=>p.name.toLowerCase().includes(state.q.toLowerCase()));
+  if(state.colors.size) list = list.filter(p=> p.colors.some(c=>state.colors.has(c)));
+  if(state.brands.size) list = list.filter(p=> state.brands.has(p.brand));
+  if(state.minRating) list = list.filter(p=>p.rating>=state.minRating);
+  if(state.onlyNew) list = list.filter(p=>p.isNew);
+  if(state.onlySale) list = list.filter(p=>p.discount>0);
+  list = list.filter(p=>finalPrice(p)<=state.maxPrice);
+
+  switch(state.sort){
+    case "price-asc": list.sort((a,b)=>finalPrice(a)-finalPrice(b)); break;
+    case "price-desc": list.sort((a,b)=>finalPrice(b)-finalPrice(a)); break;
+    case "rating": list.sort((a,b)=>b.rating-a.rating); break;
+    case "new": list.sort((a,b)=>(b.isNew-a.isNew)); break;
+  }
+
+  document.getElementById("resultCount").textContent = `${list.length} product${list.length!==1?'s':''}`;
+  renderGrid("shopGrid", list);
+  renderActiveChips(catChecks);
+  updateHeader();
+}
+
+function renderActiveChips(catChecks){
+  const chips = [];
+  catChecks.forEach(id=>chips.push({label:categoryOf(id).name, clear:()=>document.querySelector(`.cat-check[value="${id}"]`).checked=false}));
+  state.genders.forEach(g=>chips.push({label:g, clear:()=>state.genders.delete(g)}));
+  state.brands.forEach(b=>chips.push({label:b, clear:()=>state.brands.delete(b)}));
+  if(state.onlyNew) chips.push({label:"New Arrival", clear:()=>{state.onlyNew=false; document.getElementById("filterNew").checked=false;}});
+  if(state.onlySale) chips.push({label:"On Discount", clear:()=>{state.onlySale=false; document.getElementById("filterSale").checked=false;}});
+  const wrap = document.getElementById("activeFilters");
+  wrap.innerHTML = chips.map((c,i)=>`<span class="chip">${c.label}<button data-i="${i}">✕</button></span>`).join("");
+  wrap.querySelectorAll("button").forEach((b,i)=>b.addEventListener("click", ()=>{ chips[i].clear(); applyFilters(); }));
+}
+
+document.querySelectorAll(".cat-check").forEach(cb=>cb.addEventListener("change", applyFilters));
+document.querySelectorAll(".brand-check").forEach(cb=>cb.addEventListener("change", ()=>{
+  state.brands = new Set([...document.querySelectorAll(".brand-check:checked")].map(c=>c.value)); applyFilters();
+}));
+document.querySelectorAll('#filterGender input').forEach(cb=>cb.addEventListener("change", ()=>{
+  state.genders = new Set([...document.querySelectorAll('#filterGender input:checked')].map(c=>c.value)); applyFilters();
+}));
+document.querySelectorAll('input[name="rating"]').forEach(r=>r.addEventListener("change", (e)=>{ state.minRating=+e.target.value; applyFilters(); }));
+document.getElementById("filterNew").addEventListener("change", (e)=>{ state.onlyNew=e.target.checked; applyFilters(); });
+document.getElementById("filterSale").addEventListener("change", (e)=>{ state.onlySale=e.target.checked; applyFilters(); });
+document.getElementById("priceRange").addEventListener("input", (e)=>{ state.maxPrice=+e.target.value; document.getElementById("priceVal").textContent = "$"+e.target.value; applyFilters(); });
+document.getElementById("sortSelect").addEventListener("change", (e)=>{ state.sort=e.target.value; applyFilters(); });
+document.querySelectorAll(".swatch").forEach(s=>s.addEventListener("click", ()=>{
+  s.classList.toggle("active");
+  state.colors = new Set([...document.querySelectorAll(".swatch.active")].map(x=>x.dataset.color));
+  applyFilters();
+}));
+document.getElementById("clearFilters").addEventListener("click", ()=>{
+  document.querySelectorAll('input[type=checkbox]').forEach(c=>c.checked=false);
+  document.querySelectorAll('input[name="rating"]')[0].checked=true;
+  document.querySelectorAll('.swatch').forEach(s=>s.classList.remove('active'));
+  document.getElementById("priceRange").value=350; document.getElementById("priceVal").textContent="$350";
+  state = {cat:null,q:"",genders:new Set(),colors:new Set(),brands:new Set(),minRating:0,maxPrice:350,onlyNew:false,onlySale:false,sort:"relevance"};
+  document.getElementById("sortSelect").value="relevance";
+  applyFilters();
+});
+
+if(state.onlyNew) document.getElementById("filterNew").checked = true;
+if(state.onlySale) document.getElementById("filterSale").checked = true;
+applyFilters();
+initReveal();
+</script>
+</body>
+</html>

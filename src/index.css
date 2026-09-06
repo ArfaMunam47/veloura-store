@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #06110B;
+    --surface: #091811;
+    --surface-subtle: #0D2218;
+    --surface-card: #0A1B13;
+    --border: #183C2A;
+    --border-light: #1F4A34;
+    --text-primary: #FAF9F5;
+    --text-secondary: #9DB4A7;
+    --text-muted: #6C8578;
+    --accent: #D4AF37;
+    --gold: #D4AF37;
+    --gold-light: #E5C583;
+    --emerald-dark: #06110B;
+    --emerald-base: #0E261B;
+    --emerald-light: #184230;
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Didot, Georgia, serif;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'Space Mono', 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #06110B;
+    color: #FAF9F5;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-luxury {
+    font-family: var(--font-mono);
+  }
+}
+
+/* 3D Perspective & Transform Engine */
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-1400 {
+  perspective: 1400px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* 3D Stage Pedestal lighting & metallic effects */
+.pedestal-emerald-rim {
+  background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.35) 0%, rgba(17, 47, 36, 0.8) 50%, rgba(10, 27, 20, 0.95) 100%);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7), inset 0 2px 4px rgba(243, 229, 171, 0.4), 0 0 45px rgba(212, 175, 55, 0.2);
+}
+
+.pedestal-gold-accent {
+  border-top: 1px solid rgba(212, 175, 55, 0.6);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.glowing-portal-disc {
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, rgba(20, 60, 45, 0.4) 40%, rgba(10, 27, 20, 0) 70%);
+}
+
+/* Radar Pulse for 3D Hotspots */
+@keyframes radarPulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);
+  }
+  70% {
+    transform: scale(1.15);
+    box-shadow: 0 0 0 12px rgba(212, 175, 55, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+  }
+}
+
+.animate-radar {
+  animation: radarPulse 2.2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* Subtle Specular Sheen */
+@keyframes lightSweep {
+  0% { transform: translateX(-100%) rotate(25deg); }
+  100% { transform: translateX(200%) rotate(25deg); }
+}
+
+.specular-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.specular-sheen::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  transform: rotate(25deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.specular-sheen:hover::after {
+  opacity: 1;
+  animation: lightSweep 1.2s forwards;
+}
+
+/* Custom luxury responsive scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #06110B;
+}
+::-webkit-scrollbar-thumb {
+  background: #1B4532;
+  border-radius: 6px;
+  border: 2px solid #06110B;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+html {
+  scrollbar-color: #1B4532 #06110B;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+/* Hardware accelerated ambient stage float (Zero JS re-renders) */
+@keyframes stageAmbientFloat {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotateX(1.8deg) rotateY(-2.5deg);
+  }
+}
+
+.animate-stage-float {
+  animation: stageAmbientFloat 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Image reveal & zoom */
+.img-zoom-container {
+  overflow: hidden;
+  background-color: #F0EEE9;
+}
+.img-zoom-container img {
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+}
+.img-zoom-container:hover img {
+  transform: scale(1.04);
+}
+
+/* Smooth fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

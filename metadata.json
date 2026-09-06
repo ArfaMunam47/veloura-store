@@ -1,0 +1,6 @@
+{
+  "name": "Velora — Luxury Fashion House",
+  "description": "A realistic, editorial luxury fashion e-commerce experience featuring curated collections, haute couture tailoring, high-craft footwear, and accessories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

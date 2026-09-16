@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Heart, Star, Check, ArrowRight, ShieldCheck, Truck, Maximize2 } from 'lucide-react';
+import { X, Heart, Star, Check, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 import { handleImageError } from '../utils/images';
 
@@ -14,8 +14,7 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ onNavigateToProd
     addToCart,
     formatPrice,
     toggleWishlist,
-    isInWishlist,
-    setThreeDModalProduct
+    isInWishlist
   } = useStore();
 
   const [activeImgIndex, setActiveImgIndex] = useState(0);
@@ -202,26 +201,13 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ onNavigateToProd
               </button>
             </div>
 
-            <div className="flex gap-2">
-              <button
-                onClick={() => {
-                  setQuickViewProduct(null);
-                  setThreeDModalProduct(product);
-                }}
-                className="flex-1 py-2.5 bg-[#0F281B] hover:bg-[#163E2A] text-[#D4AF37] text-xs uppercase tracking-wider font-semibold border border-[#D4AF37]/40 rounded-xs flex items-center justify-center gap-1.5"
-              >
-                <Maximize2 size={12} />
-                <span>3D Turntable (4K)</span>
-              </button>
-
-              <button
-                onClick={handleInspectFull}
-                className="flex-1 py-2.5 bg-[#07130D] hover:bg-[#0A1C14] text-white text-xs uppercase tracking-wider font-medium border border-[#183C2A] hover:border-[#D4AF37]/40 rounded-xs flex items-center justify-center gap-1.5"
-              >
-                <span>Full Product Details</span>
-                <ArrowRight size={12} />
-              </button>
-            </div>
+            <button
+              onClick={handleInspectFull}
+              className="w-full py-2.5 bg-[#07130D] hover:bg-[#0E261B] text-[#C8D9D0] hover:text-white text-xs uppercase tracking-wider font-medium border border-[#183C2A] hover:border-[#D4AF37]/50 rounded-xs flex items-center justify-center gap-1.5 transition-all"
+            >
+              <span>Full Product Details</span>
+              <ArrowRight size={13} />
+            </button>
           </div>
         </div>
       </div>

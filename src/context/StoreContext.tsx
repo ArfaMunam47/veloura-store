@@ -152,7 +152,18 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
       const saved = localStorage.getItem('velora_cart');
-      return saved ? JSON.parse(saved) : [];
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          // If legacy default 2 items, clear it immediately
+          if (parsed.length <= 2 && parsed.some(i => i.productId === 'vl-trench-01' || i.productId === 'vl-loafer-01')) {
+            localStorage.removeItem('velora_cart');
+            return [];
+          }
+          return parsed;
+        }
+      }
+      return [];
     } catch {
       return [];
     }

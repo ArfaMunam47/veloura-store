@@ -110,8 +110,8 @@ class DatabaseService {
       if (fs.existsSync(DB_FILE)) {
         const raw = fs.readFileSync(DB_FILE, 'utf-8');
         const parsed = JSON.parse(raw);
-        // Ensure products are synchronized with all rich categories
-        if (parsed && Array.isArray(parsed.products) && parsed.products.length > 0) {
+        // Ensure products are synchronized with all rich categories and complete albums
+        if (parsed && Array.isArray(parsed.products) && parsed.products.length >= PRODUCTS.length) {
           return parsed;
         }
       }

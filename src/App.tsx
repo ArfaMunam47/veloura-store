@@ -23,6 +23,7 @@ import { AuthPage } from './pages/AuthPage';
 import { ContactPage } from './pages/ContactPage';
 import { FAQPage } from './pages/FAQPage';
 import { PrivacyPage, TermsPage } from './pages/LegalPages';
+import { Studio3DPage } from './pages/Studio3DPage';
 
 function VeloraApp() {
   const { threeDModalProduct, setThreeDModalProduct } = useStore();
@@ -88,12 +89,20 @@ function VeloraApp() {
             key={JSON.stringify(shopFilter)}
             initialFilter={shopFilter}
             onSelectProduct={handleSelectProduct}
+            onNavigate={handleNavigate}
           />
         )}
 
         {currentPage === 'product' && (
           <ProductDetailPage
             productId={selectedProductId}
+            onNavigate={handleNavigate}
+            onSelectProduct={handleSelectProduct}
+          />
+        )}
+
+        {currentPage === 'studio' && (
+          <Studio3DPage
             onNavigate={handleNavigate}
             onSelectProduct={handleSelectProduct}
           />
@@ -168,11 +177,13 @@ function VeloraApp() {
       <QuickViewModal onNavigateToProduct={handleSelectProduct} />
 
       {/* 3D 4K Virtual Studio Turntable Modal */}
-      <Product3DShowcaseModal
-        product={threeDModalProduct}
-        onClose={() => setThreeDModalProduct(null)}
-        onNavigateToProduct={handleSelectProduct}
-      />
+      {threeDModalProduct && (
+        <Product3DShowcaseModal
+          product={threeDModalProduct}
+          onClose={() => setThreeDModalProduct(null)}
+          onNavigateToProduct={handleSelectProduct}
+        />
+      )}
 
       {/* Global Client Authentication Modal */}
       <AuthModal onSuccessNavigate={handleNavigate} />

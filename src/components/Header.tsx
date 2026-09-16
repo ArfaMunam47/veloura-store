@@ -51,55 +51,27 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
     {
       label: 'Women',
       page: 'shop',
-      params: { group: 'Women' },
-      featured: [
-        { name: 'Outerwear & Trench', cat: 'women-outerwear' },
-        { name: 'Tailored Blazers', cat: 'women-blazers' },
-        { name: 'Silk Slip Dresses', cat: 'women-dresses' },
-        { name: 'Pure Cashmere', cat: 'women-knitwear' }
-      ]
+      params: { group: 'Women' }
     },
     {
       label: 'Men',
       page: 'shop',
-      params: { group: 'Men' },
-      featured: [
-        { name: 'Overcoats & Tailoring', cat: 'men-outerwear' },
-        { name: 'Minimal Zip Blousons', cat: 'men-jackets' },
-        { name: 'Normandy Linen Shirts', cat: 'men-shirts' },
-        { name: 'Zegna Merino Knitwear', cat: 'men-knitwear' }
-      ]
+      params: { group: 'Men' }
+    },
+    {
+      label: 'Kids',
+      page: 'shop',
+      params: { group: 'Kids' }
     },
     {
       label: 'Footwear',
       page: 'shop',
-      params: { group: 'Footwear' },
-      featured: [
-        { name: 'Chelsea Boots', cat: 'women-footwear' },
-        { name: 'Goodyear Oxford Derbies', cat: 'men-footwear' },
-        { name: 'Minimal Court Sneakers', cat: 'men-footwear' },
-        { name: 'Sloane Penny Loafers', cat: 'acc-footwear' }
-      ]
+      params: { group: 'Footwear' }
     },
     {
-      label: 'Fine Jewelry',
+      label: 'Jewelry',
       page: 'shop',
-      params: { group: 'Jewelry' },
-      featured: [
-        { name: 'Architectural Vermeil Cuffs', cat: 'acc-jewelry' },
-        { name: 'Pavé Diamond Signet Rings', cat: 'acc-jewelry' },
-        { name: 'Twisted 18k Rope Chains', cat: 'acc-jewelry' },
-        { name: 'Swiss Heritage Timepieces', cat: 'acc-watches' }
-      ]
-    },
-    {
-      label: 'Bags & Leather',
-      page: 'shop',
-      params: { group: 'Accessories', cat: 'acc-bags' }
-    },
-    {
-      label: 'Atelier',
-      page: 'about'
+      params: { group: 'Jewelry' }
     }
   ];
 
@@ -113,12 +85,12 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
       }`}
     >
       {/* 1. MINIMAL TOP ANNOUNCEMENT BAR */}
-      <div className="border-b border-[#153424]/60 pb-1.5 mb-2 text-[10.5px] font-mono-luxury tracking-widest text-[#8FA89C]">
+      <div className="border-b border-[#153424]/40 pb-1 mb-2 text-[10px] font-mono-luxury tracking-[0.2em] text-[#8FA89C]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] inline-block" />
-            <span className="text-[#C6D8CE] font-medium tracking-wider">
-              COMPLIMENTARY INSURED WORLDWIDE DELIVERY & ARCHIVE CARE
+            <span className="text-[#C6D8CE] tracking-[0.16em] uppercase">
+              Autumn / Winter Exhibition • Curated Archive
             </span>
           </div>
 
@@ -127,7 +99,7 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
               onClick={() => onNavigate('contact')}
               className="hover:text-[#D4AF37] transition-colors"
             >
-              VIP Concierge
+              Concierge
             </button>
             <span className="text-[#254F38]">•</span>
             {/* Currency Selector */}
@@ -185,54 +157,20 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
           {/* Desktop Nav Links - Clean, Uncluttered */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navCategories.map(link => (
-              <div
+              <button
                 key={link.label}
-                className="relative group"
-                onMouseEnter={() => setCategoriesHover(link.label)}
-                onMouseLeave={() => setCategoriesHover(null)}
-              >
-                <button
-                  onClick={() => onNavigate(link.page, link.params)}
-                  className={`text-[12px] tracking-[0.16em] uppercase font-sans py-1.5 transition-all flex items-center gap-1 ${
-                    activePage === link.page &&
+                onClick={() => onNavigate(link.page, link.params)}
+                className={`text-[12px] tracking-[0.16em] uppercase font-sans py-1.5 transition-all flex items-center gap-1 ${
+                  (activePage === link.page &&
                     (!link.params ||
-                      (link.params.group === 'All' && activePage === 'shop'))
-                      ? 'text-[#D4AF37] font-medium border-b border-[#D4AF37]'
-                      : 'text-[#B8CEC3] hover:text-[#FAF9F5]'
-                  }`}
-                >
-                  <span>{link.label}</span>
-                  {link.featured && (
-                    <ChevronDown size={10} className="opacity-60 group-hover:rotate-180 transition-transform" />
-                  )}
-                </button>
-
-                {/* Micro Flyout on Hover */}
-                {link.featured && categoriesHover === link.label && (
-                  <div className="absolute left-0 top-full pt-2 z-50 min-w-[210px]">
-                    <div className="bg-[#0A1A12] border border-[#1F4E37] p-3 shadow-2xl rounded-xs backdrop-blur-md">
-                      <div className="text-[10px] font-mono-luxury uppercase tracking-wider text-[#D4AF37] pb-1.5 mb-1.5 border-b border-[#183D2B]">
-                        {link.label} Collection
-                      </div>
-                      <div className="space-y-1">
-                        {link.featured.map(sub => (
-                          <button
-                            key={sub.name}
-                            onClick={() => {
-                              setCategoriesHover(null);
-                              onNavigate('shop', { group: link.label, cat: sub.cat });
-                            }}
-                            className="w-full text-left px-2 py-1.5 text-xs text-[#9BB3A6] hover:text-white hover:bg-[#123122] transition-colors rounded-xs flex items-center justify-between"
-                          >
-                            <span>{sub.name}</span>
-                            <ArrowRight size={10} className="text-[#D4AF37] opacity-0 hover:opacity-100" />
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
+                      (link.params.group === 'All' && activePage === 'shop'))) ||
+                  (activePage === 'studio' && link.page === 'studio')
+                    ? 'text-[#D4AF37] font-medium border-b border-[#D4AF37]'
+                    : 'text-[#B8CEC3] hover:text-[#FAF9F5]'
+                }`}
+              >
+                <span>{link.label}</span>
+              </button>
             ))}
           </nav>
         </div>
@@ -245,9 +183,6 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
         >
           <span className="font-editorial text-2xl sm:text-3xl tracking-[0.24em] uppercase font-normal text-white group-hover:text-[#E5C583] transition-colors block">
             VELORA
-          </span>
-          <span className="hidden sm:block text-[8px] font-mono-luxury tracking-[0.3em] uppercase text-[#D4AF37]/90 -mt-0.5">
-            HAUTE ATELIER
           </span>
         </div>
 
@@ -343,17 +278,19 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
             )}
           </div>
 
-          {/* Cart Bag Drawer Trigger */}
+          {/* Cart Bag Drawer Trigger - Luxury minimalist icon with conditional badge */}
           <button
             id="cart-drawer-button"
             onClick={() => setCartDrawerOpen(true)}
-            className="flex items-center gap-1.5 py-1.5 px-3 bg-[#D4AF37] text-[#08150F] hover:bg-[#E5C583] transition-colors font-medium rounded-xs shadow-[0_4px_15px_rgba(212,175,55,0.25)]"
+            className="relative p-1.5 text-[#B8CEC3] hover:text-[#D4AF37] transition-colors"
             aria-label="Shopping Bag"
           >
-            <ShoppingBag size={15} strokeWidth={2} />
-            <span className="text-[12px] font-mono-luxury font-bold">
-              {getCartCount()}
-            </span>
+            <ShoppingBag size={18} strokeWidth={1.6} />
+            {getCartCount() > 0 && (
+              <span className="absolute -top-1 -right-1 bg-[#D4AF37] text-[#08150F] text-[9.5px] font-mono-luxury font-bold min-w-[16px] h-4 px-1 rounded-full flex items-center justify-center shadow-xs">
+                {getCartCount()}
+              </span>
+            )}
           </button>
         </div>
       </div>
@@ -372,9 +309,6 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
                 <div>
                   <span className="font-editorial text-2xl font-normal tracking-[0.2em] text-white">
                     VELORA
-                  </span>
-                  <span className="block text-[8.5px] font-mono-luxury tracking-widest text-[#D4AF37]">
-                    HAUTE ATELIER
                   </span>
                 </div>
                 <button
@@ -423,22 +357,6 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
                     >
                       {link.label}
                     </button>
-                    {link.featured && (
-                      <div className="pl-3 mt-1 space-y-1">
-                        {link.featured.map(sub => (
-                          <button
-                            key={sub.name}
-                            onClick={() => {
-                              setMobileMenuOpen(false);
-                              onNavigate('shop', { group: link.label, cat: sub.cat });
-                            }}
-                            className="block w-full text-left text-[11px] text-[#8EA698] hover:text-white py-0.5"
-                          >
-                            • {sub.name}
-                          </button>
-                        ))}
-                      </div>
-                    )}
                   </div>
                 ))}
                 <div className="border-b border-[#143324] pb-2">

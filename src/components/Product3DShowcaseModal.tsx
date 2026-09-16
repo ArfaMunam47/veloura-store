@@ -44,6 +44,15 @@ export const Product3DShowcaseModal: React.FC<Product3DShowcaseModalProps> = ({
     }
   }, [product]);
 
+  // Auto 360 rotation loop (must be defined before any early return to obey Rules of Hooks)
+  useEffect(() => {
+    if (!isRotating) return;
+    const timer = setInterval(() => {
+      setAngleIndex(prev => (prev + 1) % angles.length);
+    }, 450);
+    return () => clearInterval(timer);
+  }, [isRotating, angles.length]);
+
   if (!product) return null;
 
   const isWished = isInWishlist(product.id);
@@ -84,15 +93,6 @@ export const Product3DShowcaseModal: React.FC<Product3DShowcaseModalProps> = ({
     onClose();
   };
 
-  // Auto 360 rotation loop
-  useEffect(() => {
-    if (!isRotating) return;
-    const timer = setInterval(() => {
-      setAngleIndex(prev => (prev + 1) % angles.length);
-    }, 450);
-    return () => clearInterval(timer);
-  }, [isRotating, angles.length]);
-
   const currentAngle = angles[angleIndex];
 
   // Dynamic 3D transformation values
@@ -129,73 +129,54 @@ export const Product3DShowcaseModal: React.FC<Product3DShowcaseModalProps> = ({
           {/* Studio HUD Header */}
           <div className="flex items-center justify-between z-10">
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#D4AF37] animate-ping" />
+              <span className="w-2 h-2 rounded-full bg-[#D4AF37]" />
               <span className="text-[11px] font-mono-luxury uppercase tracking-[0.2em] text-[#D4AF37] font-medium">
                 Velora 3D Virtual Turntable
               </span>
             </div>
 
             <div className="flex items-center gap-2">
-              {/* Studio Lighting Controls */}
-              <div className="flex items-center bg-[#07130D] p-1 border border-[#1D4734] rounded-xs text-[10px] font-mono-luxury">
-                <button
-                  onClick={() => setLightingPreset('gold')}
-                  className={`px-2 py-0.5 uppercase transition-colors ${
-                    lightingPreset === 'gold' ? 'bg-[#D4AF37] text-[#0A1811] font-bold' : 'text-[#8AA194] hover:text-white'
-                  }`}
-                >
-                  Warm Gold
-                </button>
-                <button
-                  onClick={() => setLightingPreset('daylight')}
-                  className={`px-2 py-0.5 uppercase transition-colors ${
-                    lightingPreset === 'daylight' ? 'bg-[#D4AF37] text-[#0A1811] font-bold' : 'text-[#8AA194] hover:text-white'
-                  }`}
-                >
-                  Daylight
-                </button>
-              </div>
-
               {/* Wireframe Specs Toggle */}
               <button
                 onClick={() => setShowWireframeSpecs(!showWireframeSpecs)}
-                className={`p-1.5 border text-xs transition-colors rounded-xs ${
+                className={`px-2.5 py-1 border text-[11px] font-mono-luxury uppercase transition-colors rounded-xs flex items-center gap-1.5 ${
                   showWireframeSpecs ? 'border-[#D4AF37] text-[#D4AF37] bg-[#D4AF37]/10' : 'border-[#1D4734] text-[#8AA194]'
                 }`}
                 title="Toggle Craftsmanship Pins"
               >
-                <Compass size={14} />
+                <Compass size={13} />
+                <span>Specs Pins</span>
               </button>
             </div>
           </div>
 
           {/* 3D Canvas Stage */}
           <div
-            className="relative my-4 aspect-[4/3] w-full flex items-center justify-center cursor-grab active:cursor-grabbing perspective-1000"
+            className="relative my-4 aspect-[4/3] w-full flex items-center justify-center cursor-grab active:cursor-grabbing perspective-1000 select-none"
             onMouseDown={handleMouseDown}
             onMouseMove={e => {
               handleMouseMove(e);
               handleImageMouseMove(e);
             }}
           >
-            {/* Background 3D Rim Ring */}
+            {/* Single Clean Luxury Pedestal */}
             <div
-              className={`absolute w-72 sm:w-96 h-72 sm:h-96 rounded-full border border-dashed transition-all duration-500 pointer-events-none ${
-                lightingPreset === 'gold'
-                  ? 'border-[#D4AF37]/40 shadow-[0_0_80px_rgba(212,175,55,0.25)]'
-                  : 'border-white/30 shadow-[0_0_80px_rgba(255,255,255,0.15)]'
-              }`}
+              className="absolute bottom-6 w-60 sm:w-72 h-11 rounded-[50%] overflow-hidden pointer-events-none"
+              style={{
+                background: 'linear-gradient(145deg, #133423 0%, #0B1F15 50%, #05110B 100%)',
+                border: '1px solid rgba(212, 175, 55, 0.45)',
+                boxShadow: '0 12px 28px rgba(0,0,0,0.85), inset 0 1px 2px rgba(255,255,255,0.1)'
+              }}
             />
-
-            {/* Stepped Pedestal Floor */}
+            {/* Pedestal floor shadow */}
             <div
-              className="absolute bottom-4 w-64 sm:w-80 h-16 rounded-full bg-gradient-to-r from-[#123627] via-[#0E281E] to-[#123627] border-t border-[#D4AF37]/60 shadow-[0_15px_40px_rgba(0,0,0,0.85)]"
-              style={{ transform: 'rotateX(65deg)' }}
+              className="absolute bottom-4 w-52 sm:w-64 h-6 rounded-full bg-black/80 blur-[6px] pointer-events-none"
+              style={{ transform: 'scaleY(0.6)' }}
             />
 
             {/* Product Centerpiece */}
             <div
-              className="relative w-64 sm:w-80 aspect-square preserve-3d transition-all duration-300 flex items-center justify-center"
+              className="relative w-64 sm:w-80 aspect-square preserve-3d transition-all duration-300 flex items-center justify-center z-10"
               style={{ transform: getPerspectiveTransform() }}
             >
               {macroZoom ? (
@@ -225,17 +206,17 @@ export const Product3DShowcaseModal: React.FC<Product3DShowcaseModalProps> = ({
                     alt={`${product.name} 3D rotation ${currentAngle}deg`}
                     referrerPolicy="no-referrer"
                     onError={e => handleImageError(e, product.category)}
-                    className="w-full h-full object-contain drop-shadow-[0_25px_35px_rgba(0,0,0,0.95)] filter brightness-105 contrast-105"
+                    className="w-full h-full object-contain drop-shadow-[0_20px_25px_rgba(0,0,0,0.85)] filter brightness-105 contrast-105"
                   />
 
                   {/* Craftsmanship 3D Wireframe Pins */}
                   {showWireframeSpecs && (
                     <>
-                      <div className="absolute top-1/4 left-1/4 bg-[#0A1610]/90 backdrop-blur-xs border border-[#D4AF37] px-2 py-0.5 rounded-xs text-[9px] font-mono-luxury text-[#E5C583] flex items-center gap-1 shadow-lg pointer-events-none animate-radar">
+                      <div className="absolute top-1/4 left-1/4 bg-[#0A1610]/90 backdrop-blur-xs border border-[#D4AF37]/70 px-2 py-0.5 rounded-xs text-[9px] font-mono-luxury text-[#E5C583] flex items-center gap-1 shadow-lg pointer-events-none">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
                         <span>{product.origin.split(',')[0]}</span>
                       </div>
-                      <div className="absolute bottom-1/4 right-1/4 bg-[#0A1610]/90 backdrop-blur-xs border border-[#D4AF37] px-2 py-0.5 rounded-xs text-[9px] font-mono-luxury text-[#E5C583] flex items-center gap-1 shadow-lg pointer-events-none animate-radar">
+                      <div className="absolute bottom-1/4 right-1/4 bg-[#0A1610]/90 backdrop-blur-xs border border-[#D4AF37]/70 px-2 py-0.5 rounded-xs text-[9px] font-mono-luxury text-[#E5C583] flex items-center gap-1 shadow-lg pointer-events-none">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
                         <span>Artisan Hand-Lasted</span>
                       </div>

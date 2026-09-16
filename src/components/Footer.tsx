@@ -29,9 +29,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <span className="font-editorial text-3xl tracking-[0.18em] uppercase font-normal text-white block">
               VELORA
             </span>
-            <span className="text-[10px] font-mono-luxury uppercase tracking-[0.25em] text-[#D4AF37] block mt-1">
-              HAUTE ATELIER & 3D STUDIO
-            </span>
+            <button
+              onClick={() => onNavigate('studio')}
+              className="text-[10px] font-mono-luxury uppercase tracking-[0.25em] text-[#D4AF37] hover:text-[#E5C583] block mt-1 transition-colors text-left"
+            >
+              EXPLORE 3D VIRTUAL STUDIO →
+            </button>
             <p className="mt-3 text-xs sm:text-[13px] text-[#9DB4A7] leading-relaxed max-w-md font-sans">
               Considered bespoke tailoring, pure cashmere knitwear, and handcrafted Tuscan leather goods engineered for generational permanence and timeless elegance.
             </p>
@@ -88,6 +91,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-white transition-colors"
                 >
                   Men’s Tailoring
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate('shop', { group: 'Kids' })}
+                  className="hover:text-white transition-colors"
+                >
+                  Kids & Junior Atelier
                 </button>
               </li>
               <li>

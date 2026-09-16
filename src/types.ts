@@ -1,4 +1,4 @@
-export type GenderGroup = 'Women' | 'Men' | 'Accessories' | 'Collections' | 'Jewelry' | 'Footwear' | 'All';
+export type GenderGroup = 'Women' | 'Men' | 'Kids' | 'Accessories' | 'Collections' | 'Jewelry' | 'Footwear' | 'All';
 
 export interface Category {
   id: string;
@@ -35,6 +35,10 @@ export interface Product {
   brand: string;
   category: string;
   group: GenderGroup;
+  gender?: 'men' | 'women' | 'kids' | 'unisex';
+  department?: 'clothing' | 'footwear' | 'jewelry' | 'accessories';
+  subcategory?: string;
+  availability?: boolean;
   collectionId?: string;
   price: number;
   originalPrice?: number;

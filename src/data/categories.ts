@@ -290,6 +290,55 @@ export const CATEGORIES: Category[] = [
     image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=90&w=1200&auto=format&fit=crop',
     description: 'Floor-length sculpted velvet and obsidian silk charmeuse bespoke gowns.',
     itemCount: 6
+  },
+
+  // ==========================================
+  // KIDS & JUNIOR ATELIER
+  // ==========================================
+  {
+    id: 'kids-outerwear',
+    name: 'Kids Outerwear & Coats',
+    slug: 'kids-outerwear',
+    group: 'Kids',
+    image: 'https://images.unsplash.com/photo-1543332164-6e82f355badc?q=80&w=1200&auto=format&fit=crop',
+    description: 'English melton wool duffel coats, weatherproof waxed field parkas, and hooded down jackets.',
+    itemCount: 4
+  },
+  {
+    id: 'kids-knitwear',
+    name: 'Cashmere & Wool Knitwear',
+    slug: 'kids-knitwear',
+    group: 'Kids',
+    image: 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?q=80&w=1200&auto=format&fit=crop',
+    description: 'Grade-A Scottish cashmere cable crews, organic merino cardigans, and ribbed beanie sets.',
+    itemCount: 5
+  },
+  {
+    id: 'kids-dresses',
+    name: 'Girls Dresses & Rompers',
+    slug: 'kids-dresses',
+    group: 'Kids',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop',
+    description: 'Hand-smocked Liberty cotton party frocks, silk-blend velvet dresses, and washed flax rompers.',
+    itemCount: 4
+  },
+  {
+    id: 'kids-tailoring',
+    name: 'Junior Tailoring & Shirts',
+    slug: 'kids-tailoring',
+    group: 'Kids',
+    image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1200&auto=format&fit=crop',
+    description: 'Unstructured Neapolitan wool blazers, organic cotton Breton sailor shirts, and tailored trousers.',
+    itemCount: 4
+  },
+  {
+    id: 'kids-footwear',
+    name: 'Artisan Kids Footwear',
+    slug: 'kids-footwear',
+    group: 'Kids',
+    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop',
+    description: 'Handcrafted Italian calfskin Chelsea boots and soft nappa leather T-bar shoes.',
+    itemCount: 3
   }
 ];
 

@@ -93,9 +93,118 @@
 }
 
 /* Subtle Specular Sheen */
-@keyframes lightSweep {
-  0% { transform: translateX(-100%) rotate(25deg); }
-  100% { transform: translateX(200%) rotate(25deg); }
+/* Studio Model Runway Lighting & Light Sweep */
+@keyframes studioLightSweep {
+  0% {
+    transform: translateX(-130%) skewX(-20deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.85;
+  }
+  75% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(230%) skewX(-20deg);
+    opacity: 0;
+  }
+}
+
+.animate-studio-light-sweep {
+  animation: studioLightSweep 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes spotlightGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1.04);
+  }
+}
+
+.animate-spotlight-glow {
+  animation: spotlightGlow 4s ease-in-out infinite;
+}
+
+@keyframes rimPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 18px rgba(212, 175, 55, 0.25));
+  }
+  50% {
+    filter: drop-shadow(0 0 32px rgba(212, 175, 55, 0.45));
+  }
+}
+
+.animate-rim-pulse {
+  animation: rimPulse 3s ease-in-out infinite;
+}
+
+/* Theatrical Runway Beams & Atmosphere */
+@keyframes beamShimmer {
+  0%, 100% {
+    opacity: 0.18;
+    transform: rotate(-12deg) scaleY(1);
+  }
+  50% {
+    opacity: 0.38;
+    transform: rotate(-10deg) scaleY(1.05);
+  }
+}
+
+.animate-beam-left {
+  animation: beamShimmer 5s ease-in-out infinite;
+}
+
+@keyframes beamShimmerRight {
+  0%, 100% {
+    opacity: 0.18;
+    transform: rotate(12deg) scaleY(1);
+  }
+  50% {
+    opacity: 0.38;
+    transform: rotate(10deg) scaleY(1.05);
+  }
+}
+
+.animate-beam-right {
+  animation: beamShimmerRight 5.5s ease-in-out infinite;
+}
+
+@keyframes modelReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+    filter: brightness(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: brightness(1);
+  }
+}
+
+.animate-model-reveal {
+  animation: modelReveal 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Staged Entrance Animations */
+@keyframes stageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-stage-enter {
+  animation: stageFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .specular-sheen {
@@ -183,6 +292,103 @@ html {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.animate-fade-in {
+.animate-fade-in,
+.animate-fadeIn {
   animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* ==========================================================================
+   PREMIUM INNER BORDER LIGHTING & PHOTONIC TRAVEL ENGINE
+   Directly matching luxury architectural edge-lit diffuse glow
+   ========================================================================== */
+
+@keyframes borderTravelLight {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -1600;
+  }
+}
+
+.animate-traveling-border {
+  animation: borderTravelLight 8s linear infinite;
+}
+
+@keyframes innerBorderBreathing {
+  0%, 100% {
+    opacity: 0.85;
+    filter: brightness(1);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.28);
+    transform: scale(1.002);
+  }
+}
+
+.animate-inner-border-breathe {
+  animation: innerBorderBreathing 5s ease-in-out infinite;
+}
+
+@keyframes productLevitate {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+.animate-product-levitate {
+  animation: productLevitate 5s ease-in-out infinite;
+}
+
+/* Luminous Precision Halo Presets for Inner Border */
+.inner-border-glow-gold {
+  box-shadow: 
+    inset 0 0 8px 1px rgba(255, 252, 240, 0.95),
+    inset 0 0 24px 3px rgba(255, 215, 120, 0.6),
+    inset 0 0 50px 8px rgba(212, 175, 55, 0.22),
+    0 0 25px 3px rgba(255, 215, 120, 0.28);
+}
+
+.inner-border-glow-emerald {
+  box-shadow: 
+    inset 0 0 8px 1px rgba(236, 253, 245, 0.95),
+    inset 0 0 24px 3px rgba(52, 211, 153, 0.6),
+    inset 0 0 50px 8px rgba(5, 150, 105, 0.22),
+    0 0 25px 3px rgba(52, 211, 153, 0.28);
+}
+
+.inner-border-glow-rose {
+  box-shadow: 
+    inset 0 0 8px 1px rgba(255, 241, 242, 0.95),
+    inset 0 0 24px 3px rgba(251, 113, 133, 0.58),
+    inset 0 0 50px 8px rgba(225, 29, 72, 0.2),
+    0 0 25px 3px rgba(251, 113, 133, 0.28);
+}
+
+.inner-border-glow-diamond {
+  box-shadow: 
+    inset 0 0 8px 1px rgba(255, 255, 255, 0.98),
+    inset 0 0 24px 3px rgba(165, 180, 252, 0.6),
+    inset 0 0 50px 8px rgba(99, 102, 241, 0.22),
+    0 0 25px 3px rgba(165, 180, 252, 0.28);
+}
+
+@keyframes galleryProgress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-gallery-progress {
+  animation: galleryProgress 3000ms linear forwards;
+}
+
+

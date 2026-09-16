@@ -235,6 +235,9 @@ async function startServer() {
     res.json({ success: true, message: 'Database reset to verified seed state' });
   });
 
+  // Static public assets (images, icons)
+  app.use(express.static(path.join(process.cwd(), 'public')));
+
   // -------------------------------------------------------------
   // VITE MIDDLEWARE / STATIC ASSETS
   // -------------------------------------------------------------

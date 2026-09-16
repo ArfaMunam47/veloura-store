@@ -1,0 +1,4706 @@
+{
+  "products": [
+    {
+      "id": "vl-w-01",
+      "sku": "VL-W-OUT-001",
+      "name": "Castleford Gabardine Trench Coat",
+      "subtitle": "Triple-proofed cotton gabardine",
+      "brand": "Velora Atelier",
+      "category": "women-outerwear",
+      "group": "Women",
+      "collectionId": "col-aw25",
+      "price": 680,
+      "originalPrice": 750,
+      "discount": 10,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Honey Sand",
+          "hex": "#D7B483",
+          "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "An architectural double-breasted trench silhouette tailored in England from high-density weatherproof gabardine with relaxed raglan sleeves.",
+      "details": [
+        "Double-breasted horn button closure",
+        "Weatherproof long-staple cotton",
+        "Removable belt with leather buckle",
+        "Storm flap and deep welt pockets"
+      ],
+      "materials": "100% Egyptian Cotton Gabardine; Lining: 100% Cupro",
+      "origin": "Crafted in West Yorkshire, England",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 178cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-w-02",
+      "sku": "VL-W-OUT-002",
+      "name": "Sienna Double-Faced Cashmere Coat",
+      "subtitle": "Hand-stitched Mongolian cashmere blend",
+      "brand": "Velora Studio",
+      "category": "women-outerwear",
+      "group": "Women",
+      "collectionId": "col-cashmere",
+      "price": 890,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 5,
+      "reviewsCount": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#C19A6B",
+          "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Unlined double-faced cashmere overcoat stitched entirely by hand with self-tie sash belt and deep patch pockets.",
+      "details": [
+        "Hand-split and stitched blind seams",
+        "Shawl collar with self-tie belt",
+        "Drop shoulders and fluid drape"
+      ],
+      "materials": "90% Mongolian Cashmere, 10% Virgin Wool",
+      "origin": "Hand-finished in Biella, Italy",
+      "careGuide": "Dry clean with green solvents only.",
+      "modelInfo": "Model is 176cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-w-03",
+      "sku": "VL-W-DRS-001",
+      "name": "Aurelia Silk Slip Evening Dress",
+      "subtitle": "Heavyweight 22-momme Mulberry silk",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 490,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.9,
+      "reviewsCount": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Rust Silk",
+          "hex": "#A0522D",
+          "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 0",
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Bias-cut silk slip dress draping liquid-smooth across the silhouette. Finished with delicate rouleau straps and subtle cowl neckline.",
+      "details": [
+        "Bias-cut for body-skimming contour",
+        "Adjustable rouleau straps",
+        "Floor-grazing hemline with side slit"
+      ],
+      "materials": "100% Grade 6A Mulberry Silk Charmeuse",
+      "origin": "Crafted in Lyon, France",
+      "careGuide": "Dry clean only or delicate hand wash cold.",
+      "modelInfo": "Model is 179cm wearing US 2",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-04",
+      "sku": "VL-W-DRS-002",
+      "name": "Verona Fluted Pleated Midi Dress",
+      "subtitle": "Micro-pleated georgette midi silhouette",
+      "brand": "Velora Studio",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-spring",
+      "price": 440,
+      "stock": true,
+      "stockCount": 11,
+      "rating": 4.8,
+      "reviewsCount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Botanical Ecru",
+          "hex": "#EAE6DF",
+          "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Airy sunray-pleated georgette dress with gentle cinched waist and fluted hemline moving with ethereal grace.",
+      "details": [
+        "Permanent sunray accordion pleats",
+        "Keyhole button back closure",
+        "Removable grosgrain waist sash"
+      ],
+      "materials": "100% Fine Silk-Touch Georgette",
+      "origin": "Crafted in Como, Italy",
+      "careGuide": "Dry clean only to maintain pleats.",
+      "modelInfo": "Model is 177cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-05",
+      "sku": "VL-W-DRS-003",
+      "name": "Isolde Velvet Column Evening Gown",
+      "subtitle": "Sculptural midnight velvet with back slit",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 620,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 9,
+      "rating": 4.9,
+      "reviewsCount": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Midnight Navy",
+          "hex": "#111827",
+          "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Dramatic column gown sculpted in heavy Italian silk-blend velvet. Designed with a clean high neckline and low square back.",
+      "details": [
+        "High boat neckline with plunging open back",
+        "Concealed invisible side zip",
+        "Center-back walking vent"
+      ],
+      "materials": "82% Rayon, 18% Silk Velvet",
+      "origin": "Crafted in Milan, Italy",
+      "careGuide": "Specialist steam and dry clean only.",
+      "modelInfo": "Model is 180cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-06",
+      "sku": "VL-W-TAIL-001",
+      "name": "Camille Double-Breasted Wool Blazer",
+      "subtitle": "Savile Row tailored virgin wool blazer",
+      "brand": "Velora Atelier",
+      "category": "women-tailoring",
+      "group": "Women",
+      "collectionId": "col-tailoring",
+      "price": 560,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 19,
+      "rating": 4.9,
+      "reviewsCount": 51,
+      "images": [
+        "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Heather",
+          "hex": "#374151",
+          "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10",
+        "US 12"
+      ],
+      "description": "Structured double-breasted blazer constructed with floating horsehair canvas chest piece and sculpted peaked lapels.",
+      "details": [
+        "Floating canvas construction",
+        "Peaked lapels with Melton undercollar",
+        "Horn buttons with working cuffs"
+      ],
+      "materials": "100% Fine Merino Virgin Wool",
+      "origin": "Crafted in Leeds, England",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 178cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-w-07",
+      "sku": "VL-W-TAIL-002",
+      "name": "Palazzo High-Rise Silk Trousers",
+      "subtitle": "Wide-leg fluid crepe de chine trousers",
+      "brand": "Velora Studio",
+      "category": "women-tailoring",
+      "group": "Women",
+      "collectionId": "col-tailoring",
+      "price": 340,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Ivory",
+          "hex": "#FFFFF0",
+          "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Generously cut wide-leg trousers featuring front inverted pleats and a structured waistband sitting high on the waist.",
+      "details": [
+        "Double forward pleats",
+        "Side slant pockets and rear welt pockets",
+        "Blind-stitched hem with 5cm hem allowance"
+      ],
+      "materials": "100% Silk Crepe de Chine",
+      "origin": "Crafted in Florence, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 177cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-w-08",
+      "sku": "VL-W-KNIT-001",
+      "name": "Helena Cashmere Ribbed Turtleneck",
+      "subtitle": "4-ply Scottish cashmere ribbed knit",
+      "brand": "Velora Studio",
+      "category": "women-knitwear",
+      "group": "Women",
+      "collectionId": "col-cashmere",
+      "price": 420,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 22,
+      "rating": 5,
+      "reviewsCount": 64,
+      "images": [
+        "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Oatmeal Melange",
+          "hex": "#D6C7B2",
+          "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Spun in Scotland from Grade-A cashmere yarns, this ribbed knit offers lofty warmth with a relaxed slouch collar.",
+      "details": [
+        "Chunky 7-gauge English rib knit",
+        "Seamless fully-fashioned armholes",
+        "Extended cuffs with thumbhole slits"
+      ],
+      "materials": "100% Pure Todd & Duncan Cashmere",
+      "origin": "Knitted in Hawick, Scotland",
+      "careGuide": "Hand wash cold with cashmere wash; dry flat.",
+      "modelInfo": "Model is 175cm wearing size S",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "knitwear",
+      "availability": true
+    },
+    {
+      "id": "vl-w-09",
+      "sku": "VL-W-DRS-004",
+      "name": "Seraphina Backless Silk Slip Dress",
+      "subtitle": "Champagne bias-cut evening slip",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 520,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Champagne",
+          "hex": "#F7E7CE",
+          "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 0",
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "An homage to 90s minimalism. Ultra-fine crossover back straps frame an exposed spine with effortless elegance.",
+      "details": [
+        "Low scoop back with delicate criss-cross ties",
+        "Curved neckline with French seams",
+        "Raw-edge rolled silk hem"
+      ],
+      "materials": "100% Heavy Silk Crepe Charmeuse",
+      "origin": "Crafted in Paris, France",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 178cm wearing US 2",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-10",
+      "sku": "VL-W-DRS-005",
+      "name": "Eleonora Tiered Cotton Poplin Dress",
+      "subtitle": "Crisp organic cotton poplin summer dress",
+      "brand": "Velora Studio",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-spring",
+      "price": 360,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 4.7,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Crisp White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Cut from high-density GOTS organic poplin, featuring tiered gathered flounces and hidden inseam pockets.",
+      "details": [
+        "Voluminous tiered skirt construction",
+        "Concealed front mother-of-pearl placket",
+        "Inseam pockets"
+      ],
+      "materials": "100% GOTS Certified Organic Cotton Poplin",
+      "origin": "Crafted in Porto, Portugal",
+      "careGuide": "Machine wash cold delicate; warm iron.",
+      "modelInfo": "Model is 176cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-11",
+      "sku": "VL-W-OUT-003",
+      "name": "Geneva Wool-Cashmere Wrap Cape",
+      "subtitle": "Architectural structured cape silhouette",
+      "brand": "Velora Atelier",
+      "category": "women-outerwear",
+      "group": "Women",
+      "collectionId": "col-aw25",
+      "price": 740,
+      "stock": true,
+      "stockCount": 7,
+      "rating": 4.9,
+      "reviewsCount": 16,
+      "images": [
+        "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Onyx Black",
+          "hex": "#111111",
+          "image": "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Dramatic cape cut from heavyweight melton wool with cashmere touch. Leather-piped arm slits and stand collar.",
+      "details": [
+        "Arm slits finished with nappa leather piping",
+        "Concealed horn horn toggles",
+        "Unlined with bound seams"
+      ],
+      "materials": "85% Virgin Wool, 15% Cashmere",
+      "origin": "Crafted in Innsbruck, Austria",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 178cm",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-w-12",
+      "sku": "VL-W-DRS-006",
+      "name": "Celeste Sculpted Column Dress",
+      "subtitle": "Heavy crepe architectural evening gown",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 580,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 10,
+      "rating": 4.9,
+      "reviewsCount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Emerald",
+          "hex": "#0F3824",
+          "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Sleek architectural column gown crafted in structured crepe that shapes effortlessly around waist and hips.",
+      "details": [
+        "Boat neckline with structured shoulder pads",
+        "Concealed rear zipper with hook-and-eye",
+        "Thigh-high side slit"
+      ],
+      "materials": "97% Viscose, 3% Elastane Crepe",
+      "origin": "Crafted in Milan, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 179cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-13",
+      "sku": "VL-W-TAIL-003",
+      "name": "Vivienne Single-Breasted Silk Blazer",
+      "subtitle": "Tailored Mulberry silk dupioni jacket",
+      "brand": "Velora Studio",
+      "category": "women-tailoring",
+      "group": "Women",
+      "collectionId": "col-tailoring",
+      "price": 510,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.8,
+      "reviewsCount": 33,
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Blush Champagne",
+          "hex": "#F3E5DC",
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "An elongated modern silhouette cut in raw slub silk dupioni that catches natural gallery light.",
+      "details": [
+        "Single horn button closure",
+        "Flap jet pockets and welt breast pocket",
+        "Back double vents"
+      ],
+      "materials": "100% Mulberry Silk Dupioni",
+      "origin": "Crafted in Lyon, France",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 177cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-w-14",
+      "sku": "VL-W-OUT-004",
+      "name": "Kensington Heritage Belted Trench",
+      "subtitle": "Double-breasted storm flap mac",
+      "brand": "Velora Atelier",
+      "category": "women-outerwear",
+      "group": "Women",
+      "collectionId": "col-aw25",
+      "price": 640,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.9,
+      "reviewsCount": 47,
+      "images": [
+        "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Olive Green",
+          "hex": "#3B4A3F",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Classic English rainwear re-engineered with relaxed raglan sleeves and tonal horn buttons.",
+      "details": [
+        "Double-breasted front with throat latch",
+        "Gun flap and storm shield at rear",
+        "Belt with D-ring details"
+      ],
+      "materials": "100% Water-Resistant Cotton",
+      "origin": "Crafted in West Yorkshire, England",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 176cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-w-15",
+      "sku": "VL-W-DRS-007",
+      "name": "Daphne Silk Georgette Maxi Gown",
+      "subtitle": "Floating tiered silk floor-length dress",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 660,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 5,
+      "reviewsCount": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#4A1521",
+          "image": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Dramatic tiered gown crafted from 14-momme silk georgette with a sheer pleated yoke and fluid sweeping train.",
+      "details": [
+        "Semi-sheer yoke and sleeves",
+        "Gathered multi-tiered skirt",
+        "Invisible back zipper closure"
+      ],
+      "materials": "100% Silk Georgette; Lining: 100% Silk Crepe",
+      "origin": "Crafted in Como, Italy",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 180cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-16",
+      "sku": "VL-W-DRS-008",
+      "name": "Marina Linen Halterneck Sundress",
+      "subtitle": "Normandy washed linen summer sundress",
+      "brand": "Velora Studio",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-spring",
+      "price": 310,
+      "stock": true,
+      "stockCount": 20,
+      "rating": 4.8,
+      "reviewsCount": 39,
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Sage",
+          "hex": "#778877",
+          "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 0",
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Airy halter sundress cut from stone-washed Normandy flax linen with open back and self-tie neck strap.",
+      "details": [
+        "High halter neckline with neck ties",
+        "Smocked elasticized back panel for fit",
+        "Inseam pockets"
+      ],
+      "materials": "100% French Normandy Flax Linen",
+      "origin": "Crafted in Normandy, France",
+      "careGuide": "Machine wash cold gentle; line dry.",
+      "modelInfo": "Model is 175cm wearing US 2",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-17",
+      "sku": "VL-W-DRS-009",
+      "name": "Clara Little Black Cocktail Dress",
+      "subtitle": "Structured wool crepe mini dress",
+      "brand": "Velora Studio",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 460,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 17,
+      "rating": 4.9,
+      "reviewsCount": 56,
+      "images": [
+        "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Pure Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 0",
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "The definitive little black dress. Architectural squared neckline and darts shaping a flattering A-line silhouette.",
+      "details": [
+        "Square neckline with broad straps",
+        "Concealed rear zip closure",
+        "Fully lined in smooth cupro"
+      ],
+      "materials": "100% Fine Wool Crepe",
+      "origin": "Crafted in London, England",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 177cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-18",
+      "sku": "VL-W-DRS-010",
+      "name": "Astrid Broderie Anglaise Midi Dress",
+      "subtitle": "Embroidered organic cotton eyelet dress",
+      "brand": "Velora Studio",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-spring",
+      "price": 390,
+      "stock": true,
+      "stockCount": 13,
+      "rating": 4.8,
+      "reviewsCount": 21,
+      "images": [
+        "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Warm Cream",
+          "hex": "#FFFDD0",
+          "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8"
+      ],
+      "description": "Intricately embroidered cotton eyelet midi dress with scalloped hem and puffed sleeves.",
+      "details": [
+        "Intricate geometric eyelet embroidery",
+        "Scalloped hem and sleeve cuffs",
+        "Mother-of-pearl front buttons"
+      ],
+      "materials": "100% Organic Cotton Eyelet",
+      "origin": "Crafted in Porto, Portugal",
+      "careGuide": "Hand wash cold or dry clean.",
+      "modelInfo": "Model is 176cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-w-19",
+      "sku": "VL-W-TAIL-004",
+      "name": "Sloane Pleated Tailored Trousers",
+      "subtitle": "High-waisted wool gabardine slacks",
+      "brand": "Velora Atelier",
+      "category": "women-tailoring",
+      "group": "Women",
+      "collectionId": "col-tailoring",
+      "price": 320,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.7,
+      "reviewsCount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1551803091-e20673f15770?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#C19A6B",
+          "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Sharp pressed creases and front pleats define these high-waisted trousers cut from lightweight Italian gabardine.",
+      "details": [
+        "Extended waistband with button tab",
+        "Side slash pockets",
+        "Permanent front and rear crease lines"
+      ],
+      "materials": "100% Virgin Wool Gabardine",
+      "origin": "Crafted in Biella, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 178cm wearing US 4",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-w-20",
+      "sku": "VL-W-DRS-011",
+      "name": "Paloma Silk Satin Midi Slip Dress",
+      "subtitle": "Emerald fluid silk charmeuse dress",
+      "brand": "Velora Atelier",
+      "category": "women-dresses",
+      "group": "Women",
+      "collectionId": "col-evening",
+      "price": 470,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Atelier Emerald",
+          "hex": "#0F3D2E",
+          "image": "https://images.unsplash.com/photo-1524041255072-7da0525d6b34?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 0",
+        "US 2",
+        "US 4",
+        "US 6",
+        "US 8",
+        "US 10"
+      ],
+      "description": "Fluid silk satin midi slip dress in signature Velora emerald. Features gentle bias drape and low scooping back.",
+      "details": [
+        "Signature emerald silk charmeuse",
+        "Bias cut for natural stretch and drape",
+        "Fine rolled hem finish"
+      ],
+      "materials": "100% Mulberry Silk Charmeuse",
+      "origin": "Crafted in Lyon, France",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 179cm wearing US 2",
+      "gender": "women",
+      "department": "clothing",
+      "subcategory": "dresses",
+      "availability": true
+    },
+    {
+      "id": "vl-m-01",
+      "sku": "VL-M-OUT-001",
+      "name": "Savile Row Peaked Wool Overcoat",
+      "subtitle": "Heavyweight English melton wool",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 820,
+      "originalPrice": 890,
+      "discount": 8,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 4.9,
+      "reviewsCount": 41,
+      "images": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Heather",
+          "hex": "#374151",
+          "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38R",
+        "US 40R",
+        "US 42R",
+        "US 44R"
+      ],
+      "description": "Architectural single-breasted overcoat cut with prominent peaked lapels from 650gsm northern English melton wool.",
+      "details": [
+        "Floating canvas chest construction",
+        "Peaked lapels with Melton undercollar",
+        "Horn button front with ticket pocket",
+        "Deep center-back walking vent"
+      ],
+      "materials": "100% Northern English Wool; Lining: 100% Cupro",
+      "origin": "Crafted in Leeds, England",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 187cm wearing US 40R",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-02",
+      "sku": "VL-M-TAIL-001",
+      "name": "Mayfair Double-Breasted Wool Blazer",
+      "subtitle": "Italian hopsack virgin wool blazer",
+      "brand": "Velora Atelier",
+      "category": "men-tailoring",
+      "group": "Men",
+      "collectionId": "col-tailoring",
+      "price": 640,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 5,
+      "reviewsCount": 37,
+      "images": [
+        "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "hex": "#1B2A4A",
+          "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38R",
+        "US 40R",
+        "US 42R",
+        "US 44R",
+        "US 46R"
+      ],
+      "description": "Six-on-two button stance double-breasted jacket tailored from high-twist breathable Italian hopsack wool.",
+      "details": [
+        "Six-button double-breasted stance",
+        "Neapolitan natural spalla camicia shoulder",
+        "Flap pockets and side double vents"
+      ],
+      "materials": "100% Super 130s Virgin Wool",
+      "origin": "Crafted in Naples, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 185cm wearing US 40R",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-m-03",
+      "sku": "VL-M-OUT-002",
+      "name": "Knightsbridge Belted Rain Trench",
+      "subtitle": "Weatherproof long-staple cotton trench",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 760,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 9,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "British Khaki",
+          "hex": "#A89F91",
+          "image": "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Classic double-breasted storm trench engineered with bonded cotton gabardine for maximum weatherproof protection.",
+      "details": [
+        "Removable buckle belt with brass D-rings",
+        "Throat latch and storm collar",
+        "Deep internal security pocket"
+      ],
+      "materials": "100% Bonded Cotton Gabardine",
+      "origin": "Crafted in West Yorkshire, England",
+      "careGuide": "Wipe clean with damp cloth or specialist dry clean.",
+      "modelInfo": "Model is 188cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-04",
+      "sku": "VL-M-TAIL-002",
+      "name": "Piccadilly Pleated Flannel Trousers",
+      "subtitle": "Heavyweight Vitale Barberis wool flannel",
+      "brand": "Velora Atelier",
+      "category": "men-tailoring",
+      "group": "Men",
+      "collectionId": "col-tailoring",
+      "price": 360,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 4.9,
+      "reviewsCount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Flannel",
+          "hex": "#424242",
+          "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 30",
+        "US 32",
+        "US 34",
+        "US 36"
+      ],
+      "description": "Double forward pleats and side brass adjusters eliminate the need for a belt, providing an unbroken sartorial silhouette.",
+      "details": [
+        "Double forward pleats",
+        "Side brass tab adjusters",
+        "4cm turn-up cuffs"
+      ],
+      "materials": "100% Vitale Barberis Canonico Wool Flannel",
+      "origin": "Crafted in Biella, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 186cm wearing size 32",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-m-05",
+      "sku": "VL-M-SHRT-001",
+      "name": "Sea Island Cotton Oxford Shirt",
+      "subtitle": "Fine 140/2 two-ply West Indian Sea Island cotton",
+      "brand": "Velora Studio",
+      "category": "men-shirts",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 240,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 28,
+      "rating": 4.9,
+      "reviewsCount": 65,
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Optic White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "15.0",
+        "15.5",
+        "16.0",
+        "16.5",
+        "17.0"
+      ],
+      "description": "Woven from authentic long-staple Sea Island cotton for silk-like handfeel, finished with genuine Australian mother-of-pearl buttons.",
+      "details": [
+        "Semi-spread collar with removable brass stays",
+        "Single-needle tailoring with 22 stitches per inch",
+        "Hand-sewn mother-of-pearl buttons"
+      ],
+      "materials": "100% Certified West Indian Sea Island Cotton",
+      "origin": "Crafted in Bergamo, Italy",
+      "careGuide": "Machine wash warm 40C; hang dry; hot iron.",
+      "modelInfo": "Model is 184cm wearing collar 15.5",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "shirts",
+      "availability": true
+    },
+    {
+      "id": "vl-m-06",
+      "sku": "VL-M-KNIT-001",
+      "name": "St. James Cashmere Fisherman Turtleneck",
+      "subtitle": "Heavy 6-ply Mongolian cashmere cable knit",
+      "brand": "Velora Studio",
+      "category": "men-knitwear",
+      "group": "Men",
+      "collectionId": "col-cashmere",
+      "price": 520,
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 5,
+      "reviewsCount": 38,
+      "images": [
+        "https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Ivory Cable",
+          "hex": "#FFFFF0",
+          "image": "https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Chunky fisherman cable patterns knitted in Hawick, Scotland from ultra-lofty 6-ply cashmere yarns.",
+      "details": [
+        "Traditional cable and honeycomb stitches",
+        "Substantial double-rib rollneck collar",
+        "Seamless fully-fashioned raglan sleeve"
+      ],
+      "materials": "100% Grade A Mongolian Cashmere",
+      "origin": "Knitted in Hawick, Scotland",
+      "careGuide": "Hand wash cold with wool detergent; dry flat on towel.",
+      "modelInfo": "Model is 186cm wearing size L",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "knitwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-07",
+      "sku": "VL-M-OUT-003",
+      "name": "Kensington Donegal Tweed Jacket",
+      "subtitle": "Handwoven Donegal wool field jacket",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 690,
+      "stock": true,
+      "stockCount": 11,
+      "rating": 4.8,
+      "reviewsCount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Flekked Moss",
+          "hex": "#4A5D4E",
+          "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Rugged elegance defined: handwoven Donegal tweed featuring rich multi-color nep flecks throughout the weave.",
+      "details": [
+        "Bellows hip pockets with flap closures",
+        "Throat storm tab with corduroy collar lining",
+        "Bi-swing action back for ease of movement"
+      ],
+      "materials": "100% Pure Irish Donegal Wool",
+      "origin": "Woven in County Donegal, Ireland",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 185cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-08",
+      "sku": "VL-M-KNIT-002",
+      "name": "Belgravia Merino Wool Crewneck",
+      "subtitle": "Fine 30-gauge extrafine merino sweater",
+      "brand": "Velora Studio",
+      "category": "men-knitwear",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 280,
+      "stock": true,
+      "stockCount": 24,
+      "rating": 4.9,
+      "reviewsCount": 44,
+      "images": [
+        "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Midnight Navy",
+          "hex": "#111827",
+          "image": "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Ultra-fine gauge merino knit that fits effortlessly beneath tailored sport coats or worn over collared shirts.",
+      "details": [
+        "Ultra-fine 30-gauge knit density",
+        "Ribbed collar, cuffs, and hem with Lycra recovery",
+        "Fully fashioned shoulder seams"
+      ],
+      "materials": "100% Extra-Fine Australian Merino Wool",
+      "origin": "Knitted in Derbyshire, England",
+      "careGuide": "Machine wash cold wool cycle; dry flat.",
+      "modelInfo": "Model is 183cm wearing size M",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "knitwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-09",
+      "sku": "VL-M-TAIL-003",
+      "name": "Westminster Silk Tuxedo Jacket",
+      "subtitle": "Silk grosgrain shawl collar dinner jacket",
+      "brand": "Velora Atelier",
+      "category": "men-tailoring",
+      "group": "Men",
+      "collectionId": "col-evening",
+      "price": 880,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 7,
+      "rating": 5,
+      "reviewsCount": 14,
+      "images": [
+        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Formal Black",
+          "hex": "#0A0A0A",
+          "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38R",
+        "US 40R",
+        "US 42R",
+        "US 44R"
+      ],
+      "description": "The apex of black-tie formality: a sweeping silk grosgrain shawl collar dinner jacket crafted with full floating horsehair canvas.",
+      "details": [
+        "Silk grosgrain shawl lapel and matching covered buttons",
+        "Jetted front pockets and ventless traditional back",
+        "Gauntlet cuffs with turnback silk detail"
+      ],
+      "materials": "100% Super 150s Wool with 100% Silk Lapels",
+      "origin": "Crafted in London, England",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 187cm wearing US 40R",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-m-10",
+      "sku": "VL-M-OUT-004",
+      "name": "Edinburgh Herringbone Wool Coat",
+      "subtitle": "Heavyweight Scottish cheviot wool coat",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 790,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 13,
+      "rating": 4.9,
+      "reviewsCount": 32,
+      "images": [
+        "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Herringbone Grey",
+          "hex": "#616161",
+          "image": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Distinctive broken-herringbone weave creates deep textural depth on this knee-length winter car coat.",
+      "details": [
+        "Concealed horn button front placket",
+        "Deep vertical handwarmer pockets",
+        "Rear buttoned center vent"
+      ],
+      "materials": "100% Scottish Cheviot Wool",
+      "origin": "Woven in the Scottish Borders",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 186cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-11",
+      "sku": "VL-M-KNIT-003",
+      "name": "Como Fine Merino Mock Neck",
+      "subtitle": "Italian worsted spun merino knitwear",
+      "brand": "Velora Studio",
+      "category": "men-knitwear",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 290,
+      "stock": true,
+      "stockCount": 20,
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Rich Walnut",
+          "hex": "#4B3621",
+          "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Sleek architectural mock neck collar knit seamlessly using 24-gauge worsted merino yarns.",
+      "details": [
+        "Stand-up ribbed mock neck",
+        "Saddle shoulder construction",
+        "Ribbed knit hem and cuffs"
+      ],
+      "materials": "100% Zegna Baruffa Cashwool Merino",
+      "origin": "Knitted in Biella, Italy",
+      "careGuide": "Hand wash cold; dry flat.",
+      "modelInfo": "Model is 184cm wearing size M",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "knitwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-12",
+      "sku": "VL-m-SHRT-002",
+      "name": "Riviera Relaxed Linen Shirt",
+      "subtitle": "Stone-washed French flax casual shirt",
+      "brand": "Velora Studio",
+      "category": "men-shirts",
+      "group": "Men",
+      "collectionId": "col-spring",
+      "price": 195,
+      "stock": true,
+      "stockCount": 26,
+      "rating": 4.7,
+      "reviewsCount": 38,
+      "images": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Sky Azure",
+          "hex": "#87CEEB",
+          "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Effortless casual tailoring cut from breathable Normandy flax with a relaxed camp collar and mother-of-pearl buttons.",
+      "details": [
+        "Open camp collar",
+        "Chest spade pocket",
+        "Curved shirttail hem"
+      ],
+      "materials": "100% French Flax Linen",
+      "origin": "Crafted in Porto, Portugal",
+      "careGuide": "Machine wash cold; line dry.",
+      "modelInfo": "Model is 185cm wearing size L",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "shirts",
+      "availability": true
+    },
+    {
+      "id": "vl-m-13",
+      "sku": "VL-M-OUT-005",
+      "name": "Camden Waxed Cotton Field Jacket",
+      "subtitle": "British Millerain weatherproof waxed canvas",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 580,
+      "stock": true,
+      "stockCount": 17,
+      "rating": 4.9,
+      "reviewsCount": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1544441892-794166f1e3be?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Barbour Olive",
+          "hex": "#354A21",
+          "image": "https://images.unsplash.com/photo-1544441892-794166f1e3be?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Built for enduring all elements. 8oz waxed cotton canvas from Rochdale, England with moleskin-lined handwarmer pockets.",
+      "details": [
+        "Heavy two-way brass zip with storm flap",
+        "Moleskin-lined hand pockets",
+        "Internal tartan cotton lining"
+      ],
+      "materials": "100% British Millerain Waxed Cotton",
+      "origin": "Crafted in Lancashire, England",
+      "careGuide": "Sponge clean with cold water only; re-wax annually.",
+      "modelInfo": "Model is 185cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-14",
+      "sku": "VL-M-TAIL-004",
+      "name": "Naples Solaro Wool Suit Blazer",
+      "subtitle": "Iridescent English Solaro gabardine blazer",
+      "brand": "Velora Atelier",
+      "category": "men-tailoring",
+      "group": "Men",
+      "collectionId": "col-spring",
+      "price": 720,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 10,
+      "rating": 5,
+      "reviewsCount": 16,
+      "images": [
+        "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Olive Solaro",
+          "hex": "#6B7D56",
+          "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38R",
+        "US 40R",
+        "US 42R",
+        "US 44R"
+      ],
+      "description": "Woven with contrasting red warp and olive weft yarns, Solaro fabric shifts tone dynamically under shifting natural sunlight.",
+      "details": [
+        "Spalla camicia pleated shoulder",
+        "Patch pockets (tasca a pignata)",
+        "Unlined back with taped seams"
+      ],
+      "materials": "100% English Smith Woollens Solaro",
+      "origin": "Hand-tailored in Naples, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 186cm wearing US 40R",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-m-15",
+      "sku": "VL-M-TAIL-005",
+      "name": "Belgravia Wool Flannel Trousers",
+      "subtitle": "Single-pleated mid-grey wool flannels",
+      "brand": "Velora Studio",
+      "category": "men-tailoring",
+      "group": "Men",
+      "collectionId": "col-tailoring",
+      "price": 330,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.8,
+      "reviewsCount": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Mid Grey",
+          "hex": "#707070",
+          "image": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 30",
+        "US 32",
+        "US 34",
+        "US 36"
+      ],
+      "description": "Single forward pleat flannels engineered with internal curtain waistband and side adjusters.",
+      "details": [
+        "Single forward pleat",
+        "Side buckle adjusters",
+        "Slanted front pockets"
+      ],
+      "materials": "100% Wool Flannel",
+      "origin": "Crafted in Biella, Italy",
+      "careGuide": "Dry clean only.",
+      "modelInfo": "Model is 185cm wearing size 32",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "tailoring",
+      "availability": true
+    },
+    {
+      "id": "vl-m-16",
+      "sku": "VL-M-OUT-006",
+      "name": "Strand Double-Breasted Wool Peacoat",
+      "subtitle": "Heavy 32oz Melton wool naval peacoat",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-aw25",
+      "price": 680,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 43,
+      "images": [
+        "https://images.unsplash.com/photo-1512353087810-25dfcd100962?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Naval Dark Navy",
+          "hex": "#0B1528",
+          "image": "https://images.unsplash.com/photo-1512353087810-25dfcd100962?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Authentic 8-button naval peacoat cut from 32oz dense melton wool with broad convertible collar.",
+      "details": [
+        "Convertible storm collar with throat tab",
+        "Fleece-lined handwarmer slash pockets",
+        "Anchor-embossed horn buttons"
+      ],
+      "materials": "100% Heavy Naval Melton Wool",
+      "origin": "Crafted in Portsmouth, England",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 187cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-17",
+      "sku": "VL-M-OUT-007",
+      "name": "Soho Camel Hair Polo Coat",
+      "subtitle": "100% Pure Mongolian camel hair overcoat",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-cashmere",
+      "price": 980,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 6,
+      "rating": 5,
+      "reviewsCount": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Natural Camel",
+          "hex": "#C19A6B",
+          "image": "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38R",
+        "US 40R",
+        "US 42R",
+        "US 44R"
+      ],
+      "description": "The classic American polo coat executed in natural undyed Mongolian baby camel hair with inverted box pleat back.",
+      "details": [
+        "Patch-and-flap exterior pockets",
+        "Belted half-martingale back with inverted pleat",
+        "Turnback gauntlet cuffs"
+      ],
+      "materials": "100% Pure Baby Camel Hair",
+      "origin": "Crafted in Milan, Italy",
+      "careGuide": "Specialist dry clean only.",
+      "modelInfo": "Model is 188cm wearing US 40R",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-18",
+      "sku": "VL-M-SHRT-003",
+      "name": "Chiltern Indigo Denim Overshirt",
+      "subtitle": "Japanese 10oz selvedge denim shirt-jacket",
+      "brand": "Velora Studio",
+      "category": "men-shirts",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 260,
+      "stock": true,
+      "stockCount": 19,
+      "rating": 4.8,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1550246140-5119ae4790b8?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Raw Indigo",
+          "hex": "#1A2B4C",
+          "image": "https://images.unsplash.com/photo-1550246140-5119ae4790b8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Woven on vintage shuttle looms in Okayama, Japan from rope-dyed indigo yarns with red-line selvedge ID.",
+      "details": [
+        "Twin chest flap pockets with hidden pen slot",
+        "Custom brass doughnut buttons",
+        "Red-line selvedge internal placket detail"
+      ],
+      "materials": "100% Japanese Selvedge Cotton Denim",
+      "origin": "Crafted in Kojima, Japan",
+      "careGuide": "Wash cold inside-out; line dry to preserve indigo.",
+      "modelInfo": "Model is 184cm wearing size M",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "shirts",
+      "availability": true
+    },
+    {
+      "id": "vl-m-19",
+      "sku": "VL-M-KNIT-004",
+      "name": "Chelsea Cable Knit Wool Crewneck",
+      "subtitle": "British spun Shetland wool sweater",
+      "brand": "Velora Studio",
+      "category": "men-knitwear",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 310,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.8,
+      "reviewsCount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Forest Green",
+          "hex": "#1E3F20",
+          "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Traditional Scottish cable knit sweater spun from pure virgin Shetland wool with rich heathered depth.",
+      "details": [
+        "Raglan shoulder construction",
+        "Ribbed crew neckline and cuffs",
+        "Heavy 5-gauge cable patterns"
+      ],
+      "materials": "100% Pure Shetland Wool",
+      "origin": "Knitted in the Shetland Isles, Scotland",
+      "careGuide": "Hand wash cold; dry flat.",
+      "modelInfo": "Model is 185cm wearing size L",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "knitwear",
+      "availability": true
+    },
+    {
+      "id": "vl-m-20",
+      "sku": "VL-M-OUT-008",
+      "name": "St. James Nappa Leather Biker",
+      "subtitle": "Full-grain Italian lambskin leather jacket",
+      "brand": "Velora Atelier",
+      "category": "men-outerwear",
+      "group": "Men",
+      "collectionId": "col-staples",
+      "price": 920,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 5,
+      "reviewsCount": 21,
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Washed Espresso",
+          "hex": "#2E1D13",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 38",
+        "US 40",
+        "US 42",
+        "US 44"
+      ],
+      "description": "Supple Italian vegetable-tanned lambskin leather tailored with asymmetrical Excella zipper and quilted kidney panel.",
+      "details": [
+        "Excella polished nickel hardware",
+        "Action back gussets for riding comfort",
+        "Bemberg silk lining with dual chest pockets"
+      ],
+      "materials": "100% Full-Grain Italian Lambskin Nappa",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Specialist leather cleaning only.",
+      "modelInfo": "Model is 187cm wearing US 40",
+      "gender": "men",
+      "department": "clothing",
+      "subcategory": "outerwear",
+      "availability": true
+    },
+    {
+      "id": "vl-k-01",
+      "sku": "VL-K-TOY-001",
+      "name": "Heirloom Wooden Toy Cart & Building Blocks",
+      "subtitle": "Handcrafted beechwood pull cart with geometric stacking blocks",
+      "brand": "Velora Junior Atelier",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 185,
+      "originalPrice": 210,
+      "discount": 12,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 5,
+      "reviewsCount": 38,
+      "images": [
+        "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Natural Beechwood",
+          "hex": "#D7C4A5",
+          "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "One Size (30-Piece Set)"
+      ],
+      "description": "An artisan heirloom pull cart hand-carved from sustainably sourced European beechwood. Contains 30 precision-cut geometric building blocks finished with organic beeswax.",
+      "details": [
+        "Solid FSC-certified European beechwood construction",
+        "Smooth rubber-rimmed wheels to protect parquet floors",
+        "Natural organic beeswax polish with non-toxic finish",
+        "Sturdy cotton pull cord designed for little hands"
+      ],
+      "materials": "100% Solid European Beechwood; Organic Beeswax Seal",
+      "origin": "Handcrafted in the Black Forest, Germany",
+      "careGuide": "Wipe clean with a damp lint-free cloth. Condition with wood balm.",
+      "modelInfo": "Suitable for ages 12 months and above",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-02",
+      "sku": "VL-K-TOY-002",
+      "name": "Artisan Hand-Carved Wooden Rocking Horse",
+      "subtitle": "Solid European ash wood with bridle leather saddle",
+      "brand": "Velora Junior Atelier",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 340,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 5,
+      "reviewsCount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Heritage Ash",
+          "hex": "#C8B08F",
+          "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Standard Toddler"
+      ],
+      "description": "A timeless nursery masterpiece. Master carpenters hand-sculpt each rocking horse from seasoned ash wood, complemented by an authentic vegetable-tanned bridle leather saddle.",
+      "details": [
+        "Solid sculptured ash wood with gentle curved rockers",
+        "Vegetable-tanned full-grain leather saddle and brass rivets",
+        "Counterweighted base prevents tipping during enthusiastic play",
+        "Serial numbered brass atelier plaque beneath base"
+      ],
+      "materials": "Solid Ash Wood; Tuscan Bridle Leather; Solid Brass",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Dust regularly with soft dry cloth. Treat leather with saddle conditioner.",
+      "modelInfo": "Recommended for children ages 18 months to 5 years",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-03",
+      "sku": "VL-K-TOY-003",
+      "name": "Organic Cotton Nursery Teddy Bear",
+      "subtitle": "Hypoallergenic organic cotton knit plush heirloom companion",
+      "brand": "Velora Junior",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-nursery",
+      "price": 95,
+      "isNew": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 24,
+      "rating": 4.9,
+      "reviewsCount": 52,
+      "images": [
+        "https://images.unsplash.com/photo-1559454403-b8fb88521f11?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Warm Camel",
+          "hex": "#C39B77",
+          "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "32cm Height"
+      ],
+      "description": "Incomparably gentle for newborns and toddlers. Stitched from 100% GOTS-certified organic cotton velour and filled with recycled plant fibers. Completely free from plastic pellets or hard eyes.",
+      "details": [
+        "GOTS certified 100% organic cotton velour outer",
+        "Hand-embroidered facial features for complete infant safety",
+        "Naturally hypoallergenic and anti-microbial filling",
+        "Machine washable on gentle wool cycle"
+      ],
+      "materials": "100% Organic Cotton Velour; 100% Corn-Fiber Fill",
+      "origin": "Hand-sewn in Porto, Portugal",
+      "careGuide": "Machine wash delicate at 30°C in laundry bag; air dry flat.",
+      "modelInfo": "Safe from birth (0+ months)",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-04",
+      "sku": "VL-K-TOY-004",
+      "name": "Vintage Miniature Wooden Train Locomotive",
+      "subtitle": "Hand-carved wooden railway engine with magnetic couplings",
+      "brand": "Velora Junior",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 130,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 4.8,
+      "reviewsCount": 21,
+      "images": [
+        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Multi Vintage",
+          "hex": "#A66352",
+          "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "4-Carriage Train Set"
+      ],
+      "description": "Traditional 4-piece wooden locomotive and wagons engineered with hidden safe magnetic couplings. Compatible with standard heirloom wooden railway tracks.",
+      "details": [
+        "Hand-turned solid beech and maple wood",
+        "Child-safe vegetable-based non-toxic stains",
+        "Strong embedded magnetic links for easy toddler assembly",
+        "Includes engine, coal tender, passenger coach, and caboose"
+      ],
+      "materials": "Solid Maple & Beech Wood; Non-Toxic Stains",
+      "origin": "Crafted in Saint-Claude, France",
+      "careGuide": "Wipe with slightly damp cloth. Store in dry area.",
+      "modelInfo": "Suitable for ages 2 to 8 years",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-05",
+      "sku": "VL-K-SHOE-001",
+      "name": "Junior Handcrafted Leather Winter Booties",
+      "subtitle": "Warm shearling-lined Italian pull-on leather ankle boots",
+      "brand": "Velora Footwear",
+      "category": "kids-footwear",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "footwear",
+      "collectionId": "col-aw25",
+      "price": 195,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Tan Leather",
+          "hex": "#986B41",
+          "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 24",
+        "EU 26",
+        "EU 28",
+        "EU 30",
+        "EU 32"
+      ],
+      "description": "Buttery soft Italian calfskin winter boots fully lined with pure natural shearling wool. Features flexible anti-slip natural crepe soles engineered for growing feet.",
+      "details": [
+        "100% full-grain calfskin with water-resistant finish",
+        "Plush merino shearling lining for cloud-like warmth",
+        "Flexible orthopedic footbed supporting natural foot development",
+        "Side zip and elastic gusset for easy toddler dressing"
+      ],
+      "materials": "100% Italian Calf Leather; Merino Shearling; Natural Crepe Rubber",
+      "origin": "Handcrafted in Civitanova Marche, Italy",
+      "careGuide": "Protect with leather cream; brush shearling with suede brush.",
+      "modelInfo": "True to European children shoe sizing",
+      "subcategory": "footwear",
+      "availability": true
+    },
+    {
+      "id": "vl-k-06",
+      "sku": "VL-K-TOY-005",
+      "name": "Handcrafted Wooden Pull Wagon & Stacking Blocks",
+      "subtitle": "Artisan birch pull wagon with rounded nesting blocks",
+      "brand": "Velora Junior Atelier",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 175,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 23,
+      "images": [
+        "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Birch & Pastel",
+          "hex": "#D1C2A5",
+          "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Wagon with 24 Blocks"
+      ],
+      "description": "Smoothly contoured four-wheel pull wagon carrying 24 architectural nesting blocks. Encourages early motor skills, color coordination, and imaginative play.",
+      "details": [
+        "Ultra-smooth hand-sanded edges with zero splinters",
+        "Quiet glide rubber tread wheels",
+        "Natural mineral dyes sealed with walnut oil",
+        "Double-stitched cotton pull rope"
+      ],
+      "materials": "Sustainably Harvested Birchwood; Pure Mineral Pigments",
+      "origin": "Handmade in Salzburg, Austria",
+      "careGuide": "Wipe down with dry cloth.",
+      "modelInfo": "Ages 18 months and up",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-07",
+      "sku": "VL-K-TOY-006",
+      "name": "Classic Mohair Velvet Heirloom Bear",
+      "subtitle": "Artisan jointed heirloom bear with embroidered paws",
+      "brand": "Velora Junior Atelier",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 145,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 5,
+      "reviewsCount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1543332164-6e82f355badc?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Honey Gold",
+          "hex": "#C69248",
+          "image": "https://images.unsplash.com/photo-1543332164-6e82f355badc?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "38cm Sitting Height"
+      ],
+      "description": "Crafted in the heritage European tradition using dense mohair plush and 5-way disk joints, allowing arms, legs, and head to swivel gracefully.",
+      "details": [
+        "Genuine natural mohair plush with felt paw pads",
+        "Hand-embroidered nose and smile in silk floss",
+        "Traditional 5-way rotating joint construction",
+        "Handmade satin neck bow with gold foil atelier tag"
+      ],
+      "materials": "Natural Mohair; Wool Felt; Silk Floss",
+      "origin": "Crafted in Nuremberg, Germany",
+      "careGuide": "Surface wash with wool cleaner; gentle brushing.",
+      "modelInfo": "Collector heirloom for all ages",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-k-08",
+      "sku": "VL-K-TOY-007",
+      "name": "Vintage Grand Prix Metal Pedal Car",
+      "subtitle": "Heirloom steel pedal roadster with functional steering & rubber tires",
+      "brand": "Velora Junior",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-spring",
+      "price": 285,
+      "stock": true,
+      "stockCount": 19,
+      "rating": 4.8,
+      "reviewsCount": 34,
+      "images": [
+        "https://images.unsplash.com/photo-1563720223185-11003d516935?q=85&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508175800969-525c72a047dd?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Grand Prix Red",
+          "hex": "#B91C1C",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Junior Roadster (Ages 2-6)"
+      ],
+      "description": "Heirloom-grade pressed steel pedal car inspired by 1930s European Grand Prix roadsters. Engineered with functional rack steering, chromed exhaust tips, and quiet solid rubber tires.",
+      "details": [
+        "Pre-washed pure French flax linen for instant softness",
+        "Concealed nickel-free snap fastenings for easy changing",
+        "Mother-of-pearl front button accents and gentle elastic leg gathers"
+      ],
+      "materials": "100% French Normandy Flax Linen",
+      "origin": "Crafted in Lyon, France",
+      "careGuide": "Machine wash warm delicate; line dry or tumble dry low.",
+      "modelInfo": "Generous sizing for comfortable movement",
+      "subcategory": "clothing",
+      "availability": true
+    },
+    {
+      "id": "vl-k-09",
+      "sku": "VL-K-TOY-008",
+      "name": "Artisan Handcrafted Wooden Toy Roadster",
+      "subtitle": "Solid beechwood heirloom sports car with smooth spinning wheels",
+      "brand": "Velora Junior",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-spring",
+      "price": 85,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.9,
+      "reviewsCount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?q=85&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Natural Beechwood",
+          "hex": "#C29B6B",
+          "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Single Car (22cm x 9cm)"
+      ],
+      "description": "Sculpted from single-origin Alpine beechwood and hand-finished with organic walnut oil. Features aerodynamic contours that fit tiny hands seamlessly and smooth rolling solid wood wheels.",
+      "details": [
+        "Hand-stitched smocked bodice taking over 6 hours of embroidery",
+        "Breathable organic cotton Tana lawn",
+        "Attached cotton petticoat lining with lace trim"
+      ],
+      "materials": "100% Organic Cotton Tana Lawn; Cotton Batiste Lining",
+      "origin": "Hand-smocked in Porto, Portugal",
+      "careGuide": "Machine wash cold inside out; hang dry; light steam.",
+      "modelInfo": "Age 4 wearing size 4Y",
+      "subcategory": "clothing",
+      "availability": true
+    },
+    {
+      "id": "vl-k-10",
+      "sku": "VL-K-CLO-003",
+      "name": "Junior Mongolian Cashmere Cable Sweater",
+      "subtitle": "Grade-A 4-ply pure cashmere heirloom knitwear",
+      "brand": "Velora Junior",
+      "category": "kids-clothing",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-cashmere",
+      "price": 220,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 5,
+      "reviewsCount": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Oatmeal Heather",
+          "hex": "#E0D5C3",
+          "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "2Y",
+        "4Y",
+        "6Y",
+        "8Y",
+        "10Y"
+      ],
+      "description": "Incomparably soft pure cashmere sweater spun in the Scottish Borders. Classic heritage cable knit that provides weightless warmth with zero itchiness.",
+      "details": [
+        "Spun from 100% long-staple Mongolian cashmere fibers",
+        "Seamless knitted yoke and flexible ribbed hem and cuffs",
+        "Naturally breathable and hypoallergenic for tender skin"
+      ],
+      "materials": "100% Grade-A Mongolian Cashmere",
+      "origin": "Knitted in Hawick, Scotland",
+      "careGuide": "Hand wash cold with wool wash; dry flat on towel.",
+      "modelInfo": "Relaxed classic fit",
+      "subcategory": "clothing",
+      "availability": true
+    },
+    {
+      "id": "vl-k-11",
+      "sku": "VL-K-SHOE-002",
+      "name": "Junior Artisan Boxcalf Pull-On Boots",
+      "subtitle": "Italian hand-stitched children pull-on leather boots",
+      "brand": "Velora Footwear",
+      "category": "kids-footwear",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "footwear",
+      "collectionId": "col-aw25",
+      "price": 180,
+      "stock": true,
+      "stockCount": 17,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Caramel Calfskin",
+          "hex": "#966035",
+          "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 25",
+        "EU 27",
+        "EU 29",
+        "EU 31",
+        "EU 33"
+      ],
+      "description": "Artisan-crafted pull-on boots with elastic side gores and pull tabs. Anatomical shape allows toes to splay naturally for healthy foot development.",
+      "details": [
+        "Supple vegetable-tanned French calfskin leather",
+        "Leather-lined interior and cushioned antibacterial arch support",
+        "Flexible non-slip rubber outsoles"
+      ],
+      "materials": "100% Full-Grain Calfskin; Natural Rubber Outsole",
+      "origin": "Handcrafted in Civitanova Marche, Italy",
+      "careGuide": "Wipe with damp cloth; nourish with leather balm.",
+      "modelInfo": "True to European size",
+      "subcategory": "footwear",
+      "availability": true
+    },
+    {
+      "id": "vl-k-12",
+      "sku": "VL-K-TOY-007",
+      "name": "Artisan Pastel Wooden Stacking Rings",
+      "subtitle": "Smooth organic beechwood stacking tower toy",
+      "brand": "Velora Junior Atelier",
+      "category": "kids-toys",
+      "group": "Kids",
+      "gender": "kids",
+      "department": "clothing",
+      "collectionId": "col-heirloom",
+      "price": 75,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 22,
+      "rating": 4.9,
+      "reviewsCount": 36,
+      "images": [
+        "/images/kids_stacking_rings.jpg",
+        "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Pastel Meadow",
+          "hex": "#A2B59F",
+          "image": "/images/kids_stacking_rings.jpg"
+        }
+      ],
+      "sizes": [
+        "6-Ring Stacker"
+      ],
+      "description": "A soothing Montessori-inspired stacking tower crafted from solid beechwood rings dyed in serene nature-inspired botanical hues and crowned with a tactile wooden sphere.",
+      "details": [
+        "Solid FSC European beechwood with rounded child-safe contours",
+        "Dyed with botanical water-based dyes and sealed with organic oil",
+        "Develops spatial awareness, hand-eye coordination, and size sequencing"
+      ],
+      "materials": "100% Solid Beechwood; Plant-Based Dyes",
+      "origin": "Crafted in Jura, France",
+      "careGuide": "Clean with damp cloth; air dry.",
+      "modelInfo": "Safe from 6 months and up",
+      "subcategory": "toys",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-loafer-01",
+      "sku": "VL-SHOE-LF-001",
+      "name": "Sloane Goodyear Penny Loafer",
+      "subtitle": "French boxcalf with Goodyear-welted oak bark sole",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 460,
+      "originalPrice": 495,
+      "discount": 7,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.9,
+      "reviewsCount": 39,
+      "images": [
+        "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Espresso Boxcalf",
+          "hex": "#2B1A12",
+          "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44",
+        "EU 45"
+      ],
+      "description": "Classic penny loafer handcrafted in Northamptonshire on our archival rounded last. Goodyear-welted to an oak-bark tanned leather outsole.",
+      "details": [
+        "360-degree Goodyear welt construction",
+        "French Annonay calf leather upper",
+        "Channelled oak bark tanned leather soles",
+        "Hand-stitched apron saddle detail"
+      ],
+      "materials": "100% French Boxcalf Leather; Full Calf Lining; Oak Bark Soles",
+      "origin": "Handcrafted in Northamptonshire, England",
+      "careGuide": "Condition with beeswax polish; insert cedar shoe trees after wear.",
+      "modelInfo": "True to standard European dress sizing",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "loafers",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-boot-01",
+      "sku": "VL-SHOE-BT-001",
+      "name": "Florentine Calfskin Chelsea Boot",
+      "subtitle": "Hand-burnished Italian museum calf with Blake stitch",
+      "brand": "Velora Footwear",
+      "category": "shoes-boots",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 520,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 5,
+      "reviewsCount": 46,
+      "images": [
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Hand-Burnished Cognac",
+          "hex": "#7B3F00",
+          "image": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Single-cut wholecut Chelsea boot crafted from museum calfskin displaying organic cloudy marbling.",
+      "details": [
+        "Wholecut one-piece upper construction",
+        "Blake-rapid stitched leather sole with rubber top-lift",
+        "Heavy gauge tonal side elastics"
+      ],
+      "materials": "100% Italian Museum Calfskin; Vegetable-Tanned Insole",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Nourish with Saphir Renovateur cream.",
+      "modelInfo": "Fit runs sleek; recommend taking normal size",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "boots",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-heel-01",
+      "sku": "VL-SHOE-HL-001",
+      "name": "Vittoria Pointed Leather Evening Pump",
+      "subtitle": "85mm Sculptural stiletto heel in kidskin suede",
+      "brand": "Velora Footwear",
+      "category": "shoes-heels",
+      "group": "Footwear",
+      "collectionId": "col-evening",
+      "price": 480,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Cobalt Blue",
+          "hex": "#1E3A8A",
+          "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 36",
+        "EU 37",
+        "EU 38",
+        "EU 39",
+        "EU 40",
+        "EU 41"
+      ],
+      "description": "Architectural 85mm stiletto pump featuring an elongated pointed toe and memory foam insole cushioning.",
+      "details": [
+        "85mm balanced flared stiletto heel",
+        "Low-cut vamp elongating the leg line",
+        "Padded arch support with dual-density foam"
+      ],
+      "materials": "100% Italian Kidskin Suede; Buffed Leather Sole",
+      "origin": "Handcrafted in the Riviera del Brenta, Italy",
+      "careGuide": "Protect with suede protector spray.",
+      "modelInfo": "True to European sizing",
+      "gender": "women",
+      "department": "footwear",
+      "subcategory": "heels",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-snk-01",
+      "sku": "VL-SHOE-SK-001",
+      "name": "Artisan Low Nappa Court Sneaker",
+      "subtitle": "Italian nappa leather with Margom rubber cupsole",
+      "brand": "Velora Footwear",
+      "category": "shoes-sneakers",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 320,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 25,
+      "rating": 4.8,
+      "reviewsCount": 72,
+      "images": [
+        "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Monochrome Chalk",
+          "hex": "#F5F5F0",
+          "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44",
+        "EU 45"
+      ],
+      "description": "Minimalist court sneaker engineered with buttery soft Italian calfskin nappa and legendary Margom stitched cupsole.",
+      "details": [
+        "Authentic Margom Italian stitched rubber cupsole",
+        "Full-grain calf nappa upper with padded collar",
+        "Removable memory foam antibacterial footbed"
+      ],
+      "materials": "100% Italian Calfskin Nappa; Margom Natural Rubber",
+      "origin": "Crafted in Civitanova Marche, Italy",
+      "careGuide": "Clean with damp cloth and leather sneaker conditioner.",
+      "modelInfo": "If between sizes, take one size down",
+      "gender": "women",
+      "department": "footwear",
+      "subcategory": "heels",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-derby-01",
+      "sku": "VL-SHOE-DB-001",
+      "name": "Oxford Cap-Toe Formal Derby",
+      "subtitle": "Goodyear-welted black French calf dress shoe",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 490,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 5,
+      "reviewsCount": 34,
+      "images": [
+        "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Black Calf",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "The definitive formal dress shoe. Traditional cap-toe oxford constructed with closed lacing and oak bark sole.",
+      "details": [
+        "Traditional closed five-eyelet lacing",
+        "Goodyear welted with bevelled waist",
+        "Hand-finished edge dressing"
+      ],
+      "materials": "100% French Calfskin; Oak Bark Leather Sole",
+      "origin": "Crafted in Northamptonshire, England",
+      "careGuide": "Polish with Saphir Medaille d'Or wax.",
+      "modelInfo": "Standard UK/EU sizing",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-loafer-02",
+      "sku": "VL-SHOE-LF-002",
+      "name": "Ravello Suede Belgian Loafer",
+      "subtitle": "Unlined snuff suede slip-on with leather piping",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-spring",
+      "price": 390,
+      "stock": true,
+      "stockCount": 19,
+      "rating": 4.8,
+      "reviewsCount": 23,
+      "images": [
+        "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Snuff Suede",
+          "hex": "#6F4E37",
+          "image": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Unlined for immediate glove-like comfort, finished with contrasting calfskin leather piping and a subtle front bow detail.",
+      "details": [
+        "Unlined construction for ultra-soft flexibility",
+        "Hand-stitched leather bow and apron piping",
+        "Flex-leather thin dress sole"
+      ],
+      "materials": "100% Reverse Calf Suede; Soft Vegetable-Tanned Insole",
+      "origin": "Handcrafted in Almansa, Spain",
+      "careGuide": "Brush with brass wire suede brush.",
+      "modelInfo": "Glove fit, conforms to your foot shape",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "loafers",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-boot-02",
+      "sku": "VL-SHOE-BT-002",
+      "name": "Dolomite Shearling Combat Boot",
+      "subtitle": "Vibram Commando lug-sole with natural shearling lining",
+      "brand": "Velora Footwear",
+      "category": "shoes-boots",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 560,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 10,
+      "rating": 4.9,
+      "reviewsCount": 17,
+      "images": [
+        "https://images.unsplash.com/photo-1596704017254-9b121068fb31?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Waxed Chestnut",
+          "hex": "#4A2E1B",
+          "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Cold-weather alpine boot lined throughout with plush merino shearling and grounded on a heavy-duty Vibram Commando lug sole.",
+      "details": [
+        "Full natural shearling lining to the toe",
+        "Storm-welted construction with sealed seams",
+        "Solid brass speed hooks"
+      ],
+      "materials": "100% Waxed Horween Leather; 100% Merino Shearling; Vibram Rubber",
+      "origin": "Crafted in Montebelluna, Italy",
+      "careGuide": "Treat with dubbin or beeswax.",
+      "modelInfo": "Accommodates heavy winter wool socks",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "boots",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-heel-02",
+      "sku": "VL-SHOE-HL-002",
+      "name": "Aurelia Pointed Stiletto Evening Pump",
+      "subtitle": "Sculptural Italian high heel pump in smooth patent leather",
+      "brand": "Velora Footwear",
+      "category": "shoes-heels",
+      "group": "Footwear",
+      "collectionId": "col-evening",
+      "price": 430,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1516651000622-7f32fe80a57a?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Classic Nude & Noir",
+          "hex": "#D1A384",
+          "image": "https://images.unsplash.com/photo-1516651000622-7f32fe80a57a?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 36",
+        "EU 37",
+        "EU 38",
+        "EU 39",
+        "EU 40"
+      ],
+      "description": "Ultra-fine tubular leather straps wrap the ankle and foot effortlessly, perched atop a 70mm kitten-stiletto heel.",
+      "details": [
+        "70mm comfortable evening heel",
+        "Adjustable delicate ankle strap with gold buckle",
+        "Square open toe silhouette"
+      ],
+      "materials": "100% Specchio Metallic Lambskin; Leather Sole",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Wipe clean with microfibre cloth.",
+      "modelInfo": "True to standard size",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "sandals",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-monk-01",
+      "sku": "VL-SHOE-MK-001",
+      "name": "Milano Suede Double Monk Strap",
+      "subtitle": "English snuff suede with brushed brass hardware",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 480,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Tobacco Suede",
+          "hex": "#715D47",
+          "image": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Double buckle monk strap featuring bevelled waist and hand-antiqued solid brass buckles.",
+      "details": [
+        "Dual adjustable brass roller buckles",
+        "Goodyear-welted single leather sole",
+        "Soft chisel toe last"
+      ],
+      "materials": "100% Repello Suede Upper; Full Leather Insole",
+      "origin": "Crafted in Northamptonshire, England",
+      "careGuide": "Waterproof spray before first wear.",
+      "modelInfo": "Standard medium width fitting",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-derby-02",
+      "sku": "VL-SHOE-DB-002",
+      "name": "Piccadilly Plain Toe Derby",
+      "subtitle": "Derby shoe in French black boxcalf",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 470,
+      "stock": true,
+      "stockCount": 17,
+      "rating": 4.8,
+      "reviewsCount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Mirror Gloss Black",
+          "hex": "#0F0F0F",
+          "image": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Versatile five-eyelet plain-toe derby cut with clean unadorned vamp and storm welt for all-weather durability.",
+      "details": [
+        "Storm welt 360-degree construction",
+        "Dainite studded rubber outsole",
+        "Blind eyelets"
+      ],
+      "materials": "100% French Full-Grain Calfskin; Dainite Sole",
+      "origin": "Crafted in Northamptonshire, England",
+      "careGuide": "Polish with black cream polish.",
+      "modelInfo": "Generous forefoot fitting",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-snk-02",
+      "sku": "VL-SHOE-SK-002",
+      "name": "Torino Retro Runner Sneaker",
+      "subtitle": "Suede and nylon paneled luxury trainer",
+      "brand": "Velora Footwear",
+      "category": "shoes-sneakers",
+      "group": "Footwear",
+      "collectionId": "col-spring",
+      "price": 340,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 21,
+      "rating": 4.7,
+      "reviewsCount": 36,
+      "images": [
+        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Heritage Grey/Sage",
+          "hex": "#8A9A86",
+          "image": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Vintage 1970s marathon silhouette reconstructed with Italian calf suede, technical ripstop nylon, and EVA wedge sole.",
+      "details": [
+        "Italian calf suede and high-tenacity nylon",
+        "Lightweight dual-density EVA midsole",
+        "Vibram studded rubber tread"
+      ],
+      "materials": "Calf Suede, Technical Ripstop, Vibram Rubber",
+      "origin": "Handcrafted in Porto, Portugal",
+      "careGuide": "Spot clean with gentle sneaker foaming cleanser.",
+      "modelInfo": "True to size",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "sneakers",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-boot-03",
+      "sku": "VL-SHOE-BT-003",
+      "name": "Savile Jodhpur Ankle Boot",
+      "subtitle": "Calfskin ankle boot with wrap strap buckle",
+      "brand": "Velora Footwear",
+      "category": "shoes-boots",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 540,
+      "stock": true,
+      "stockCount": 11,
+      "rating": 4.9,
+      "reviewsCount": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Rich Dark Brown",
+          "hex": "#3A2118",
+          "image": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Equestrian heritage reimagined for urban styling. Wraparound leather strap with solid brass roller buckle.",
+      "details": [
+        "Wraparound strap with single brass buckle closure",
+        "Bevelled waist leather sole",
+        "Full leather lining"
+      ],
+      "materials": "100% Full-Grain Calfskin",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Condition regularly with mink oil or cream.",
+      "modelInfo": "Runs true to size",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "boots",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-snk-03",
+      "sku": "VL-SHOE-SK-003",
+      "name": "Verona Minimalist High-Top Sneaker",
+      "subtitle": "Italian pebbled leather high top",
+      "brand": "Velora Footwear",
+      "category": "shoes-sneakers",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 360,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 4.8,
+      "reviewsCount": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Triple White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Clean architectural lines in full-grain pebbled calfskin with padded collar and natural gum Margom rubber sole.",
+      "details": [
+        "Stitched Margom rubber sole",
+        "Pebbled calfskin leather upper",
+        "Waxed cotton flat laces"
+      ],
+      "materials": "100% Pebbled Italian Calfskin",
+      "origin": "Crafted in Civitanova Marche, Italy",
+      "careGuide": "Clean with leather cleaner.",
+      "modelInfo": "Take one size down if half size",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "sneakers",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-snk-04",
+      "sku": "VL-SHOE-SK-004",
+      "name": "Monaco Suede Slip-On Skate Shoe",
+      "subtitle": "Supple kid suede luxury slip-on",
+      "brand": "Velora Footwear",
+      "category": "shoes-sneakers",
+      "group": "Footwear",
+      "collectionId": "col-spring",
+      "price": 290,
+      "stock": true,
+      "stockCount": 22,
+      "rating": 4.8,
+      "reviewsCount": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Scarlet Suede",
+          "hex": "#A81C1C",
+          "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Relaxed Riviera ease: buttery suede slip-on with elastic side gussets and vulcanised rubber outsole.",
+      "details": [
+        "Elastic side gores for easy slip-on",
+        "Calfskin-lined padded footbed",
+        "Reinforced heel counter"
+      ],
+      "materials": "100% Italian Kid Suede",
+      "origin": "Crafted in Porto, Portugal",
+      "careGuide": "Suede brush only.",
+      "modelInfo": "Fits true to size",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-boot-04",
+      "sku": "VL-SHOE-BT-004",
+      "name": "Chiltern Horween Service Boot",
+      "subtitle": "Horween Chromexcel leather with Commando sole",
+      "brand": "Velora Footwear",
+      "category": "shoes-boots",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 580,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 13,
+      "rating": 5,
+      "reviewsCount": 51,
+      "images": [
+        "https://images.unsplash.com/photo-1512990414788-d97cb4a25db3?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Color 8 Burgundy",
+          "hex": "#471923",
+          "image": "https://images.unsplash.com/photo-1512990414788-d97cb4a25db3?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44",
+        "EU 45"
+      ],
+      "description": "Handcrafted from legendary Horween Chromexcel leather that patinas richly over decades of wear.",
+      "details": [
+        "Horween Chromexcel pull-up leather",
+        "Vibram Commando club sole",
+        "Brass eyelets and speedhooks"
+      ],
+      "materials": "100% Horween Chromexcel Leather; Vibram Sole",
+      "origin": "Crafted in England",
+      "careGuide": "Venetian shoe cream periodically.",
+      "modelInfo": "Half size down recommended",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "boots",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-snk-05",
+      "sku": "VL-SHOE-SK-005",
+      "name": "Lugano Canvas Deck Sneaker",
+      "subtitle": "Heavyweight 16oz duck canvas vulcanized shoe",
+      "brand": "Velora Footwear",
+      "category": "shoes-sneakers",
+      "group": "Footwear",
+      "collectionId": "col-spring",
+      "price": 220,
+      "stock": true,
+      "stockCount": 27,
+      "rating": 4.7,
+      "reviewsCount": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Natural Ecru",
+          "hex": "#F3EFE0",
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Kiln-vulcanised Japanese Kurume duck canvas sneaker engineered with herringbone siped wet-grip outsole.",
+      "details": [
+        "Kiln vulcanised sole binding",
+        "Heavyweight 16oz organic cotton canvas",
+        "Cushioned arch footbed"
+      ],
+      "materials": "100% Organic Cotton Canvas; Natural Gum Rubber",
+      "origin": "Crafted in Kurume, Japan",
+      "careGuide": "Cold hand wash with mild soap.",
+      "modelInfo": "Standard unisex sizing",
+      "gender": "unisex",
+      "department": "footwear",
+      "subcategory": "sneakers",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-derby-03",
+      "sku": "VL-SHOE-DB-003",
+      "name": "Highland Wingtip Brogue Derby",
+      "subtitle": "Scottish grain leather country brogue",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 510,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.9,
+      "reviewsCount": 37,
+      "images": [
+        "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Tan Scotchgrain",
+          "hex": "#B87333",
+          "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Country wingtip brogue with intricate punch brogue perforations, double leather sole, and weather storm welt.",
+      "details": [
+        "Heavy scotchgrain embossed calfskin",
+        "Double leather sole with brass heel nails",
+        "Medallion toe broguing"
+      ],
+      "materials": "100% Grain Calfskin; Double Leather Soles",
+      "origin": "Handcrafted in Northamptonshire, England",
+      "careGuide": "Saphir cognac polish.",
+      "modelInfo": "Generous country fitting",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-derby-04",
+      "sku": "VL-SHOE-DB-004",
+      "name": "Como Apron Split-Toe Derby",
+      "subtitle": "Norwegian-welted split-toe calf derby",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-staples",
+      "price": 530,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 4.9,
+      "reviewsCount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Dark Chocolate",
+          "hex": "#3B2219",
+          "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Meticulous hand-sewn pig-bristle apron stitch on a robust split-toe silhouette. Water-resistant Norwegian welt.",
+      "details": [
+        "Hand-stitched pie-crust apron seam",
+        "Water-resistant Norwegian welt construction",
+        "Ridgeway rubber all-weather sole"
+      ],
+      "materials": "100% French Calf Leather; Ridgeway Sole",
+      "origin": "Crafted in Cholet, France",
+      "careGuide": "Condition with beeswax cream.",
+      "modelInfo": "True to size",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-boot-05",
+      "sku": "VL-SHOE-BT-005",
+      "name": "Verona Chunky Lug Chelsea Boot",
+      "subtitle": "Italian vegetable tanned leather platform boot",
+      "brand": "Velora Footwear",
+      "category": "shoes-boots",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 520,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.8,
+      "reviewsCount": 33,
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#141414",
+          "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 37",
+        "EU 38",
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42"
+      ],
+      "description": "Modern architectural Chelsea boot featuring exaggerated tread lug sole and elastic side panels.",
+      "details": [
+        "Chunky 40mm platform lug sole",
+        "Twin front and rear pull tabs",
+        "Supple vegetable-tanned calfskin"
+      ],
+      "materials": "100% Italian Calfskin; Lightweight Rubber Lug Sole",
+      "origin": "Crafted in Florence, Italy",
+      "careGuide": "Clean with damp cloth.",
+      "modelInfo": "True to size",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "boots",
+      "availability": true
+    },
+    {
+      "id": "vl-shoe-derby-05",
+      "sku": "VL-SHOE-DB-005",
+      "name": "Arezzo Sculpted Platform Derby",
+      "subtitle": "Polished spazzolato leather platform shoe",
+      "brand": "Velora Footwear",
+      "category": "shoes-formal",
+      "group": "Footwear",
+      "collectionId": "col-aw25",
+      "price": 490,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.8,
+      "reviewsCount": 21,
+      "images": [
+        "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "High-Shine Onyx",
+          "hex": "#080808",
+          "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "EU 37",
+        "EU 38",
+        "EU 39",
+        "EU 40",
+        "EU 41",
+        "EU 42"
+      ],
+      "description": "High-gloss spazzolato leather with a lightweight sculpted platform bevel that cushions every step.",
+      "details": [
+        "Glossy spazzolato polished leather",
+        "35mm extruded architectural sole",
+        "Cushioned memory insole"
+      ],
+      "materials": "100% Spazzolato Calf Leather",
+      "origin": "Crafted in Milan, Italy",
+      "careGuide": "Buff with soft microfibre cloth.",
+      "modelInfo": "True to size",
+      "gender": "men",
+      "department": "footwear",
+      "subcategory": "formal",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-cuff-01",
+      "sku": "VL-JWL-CF-001",
+      "name": "Architectural Vermeil Gold Cuff",
+      "subtitle": "Hand-hammered 18k gold over solid 925 sterling silver",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-cuffs",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 380,
+      "originalPrice": 420,
+      "discount": 10,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 18,
+      "rating": 4.9,
+      "reviewsCount": 52,
+      "images": [
+        "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "18k Yellow Gold Vermeil",
+          "hex": "#E5C583",
+          "image": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Small (15cm)",
+        "Medium (17cm)",
+        "Large (19cm)"
+      ],
+      "description": "Architectural open cuff hand-hammered by master silversmiths in Arezzo, Italy with heavy 3.5 micron 18k yellow gold vermeil.",
+      "details": [
+        "Solid 925 sterling silver base with 3.5 micron 18k gold vermeil",
+        "Hand-planished hammered texture with soft satin finish",
+        "Comfort-curved interior profile"
+      ],
+      "materials": "18k Yellow Gold Vermeil on Solid 925 Sterling Silver",
+      "origin": "Handcrafted in Arezzo, Italy",
+      "careGuide": "Store in anti-tarnish pouch; clean with gold polishing cloth.",
+      "modelInfo": "Malleable open cuff fits comfortably on most wrists",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "bracelets",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ring-01",
+      "sku": "VL-JWL-RG-001",
+      "name": "Pavé Cushion Diamond Signet Ring",
+      "subtitle": "Recycled 14k gold with brilliant-cut VS1 diamonds",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-rings",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 640,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 11,
+      "rating": 5,
+      "reviewsCount": 38,
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "14k Solid Yellow Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 6",
+        "US 7",
+        "US 8",
+        "US 9",
+        "US 10"
+      ],
+      "description": "Modern signet ring with a cushion-shaped face pavé-set with 24 conflict-free brilliant-cut diamonds.",
+      "details": [
+        "24 brilliant-cut diamonds (0.32 total carat weight, F-G color, VS1 clarity)",
+        "Comfort-fit tapered band with mirror-polished side bevels",
+        "Substantial solid 14k gold casting"
+      ],
+      "materials": "14k Recycled Yellow Gold; Conflict-Free Natural Diamonds",
+      "origin": "Handcrafted in Hatton Garden, London",
+      "careGuide": "Clean gently with warm water, mild soap, and soft brush.",
+      "modelInfo": "Available in standard US ring sizes",
+      "gender": "men",
+      "department": "jewelry",
+      "subcategory": "rings",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-neck-01",
+      "sku": "VL-JWL-NK-001",
+      "name": "Marquise Diamond Floating Necklace",
+      "subtitle": "0.45ct Marquise diamond on diamond-cut cable chain",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 780,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 9,
+      "rating": 4.9,
+      "reviewsCount": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "18k Yellow Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "16-18 Inch Adjustable"
+      ],
+      "description": "A solitare marquise-cut diamond suspended bezel-set on a delicate 18k diamond-cut chain that catches candlelight with subtle movement.",
+      "details": [
+        "0.45ct Marquise cut diamond (E color, VVS2 clarity)",
+        "18k yellow gold fine cable chain with spring ring clasp",
+        "Three adjustable jump rings at 16, 17, and 18 inches"
+      ],
+      "materials": "Solid 18k Yellow Gold; Natural Conflict-Free Diamond",
+      "origin": "Handcrafted in Antwerp, Belgium",
+      "careGuide": "Avoid exposure to lotions and perfumes.",
+      "modelInfo": "Adjustable chain length",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "necklaces",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-chain-01",
+      "sku": "VL-JWL-CH-001",
+      "name": "Flat Byzantine Heavy Gold Chain",
+      "subtitle": "Solid 925 sterling silver with 18k heavy gold plating",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 440,
+      "stock": true,
+      "stockCount": 15,
+      "rating": 4.8,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Warm 18k Gold",
+          "hex": "#E5C583",
+          "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "50cm (20 Inch)",
+        "55cm (22 Inch)"
+      ],
+      "description": "Intricately hand-woven Byzantine chain link that lays flat against the collarbone with heavy tactile weight.",
+      "details": [
+        "Traditional hand-linked Byzantine interlocking pattern",
+        "Heavy custom lobster clasp with hallmark tag",
+        "5mm link width"
+      ],
+      "materials": "Heavy 18k Gold Vermeil on Solid 925 Sterling Silver",
+      "origin": "Handcrafted in Vicenza, Italy",
+      "careGuide": "Wipe clean with jewellery microfibre cloth.",
+      "modelInfo": "Substantial 42g weight",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "jewelry",
+      "availability": true
+    },
+    {
+      "id": "vl-watch-auto-01",
+      "sku": "VL-WTC-AT-001",
+      "name": "Heritage Swiss Automatic Chronograph",
+      "subtitle": "Calibre V-01 automatic movement with sapphire crystal",
+      "brand": "Velora Horology",
+      "category": "watches-luxury",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 1250,
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 6,
+      "rating": 5,
+      "reviewsCount": 47,
+      "images": [
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Brushed Steel & Sunburst Dial",
+          "hex": "#A8A8A8",
+          "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "39mm Case"
+      ],
+      "description": "Swiss-engineered automatic chronograph featuring 316L stainless steel case, column-wheel movement, and sapphire display caseback.",
+      "details": [
+        "Sellita SW510 BH automatic column wheel movement (48h power reserve)",
+        "Double-domed scratchproof sapphire crystal with anti-reflective coating",
+        "100m (10 ATM) water resistance with screw-down crown",
+        "Italian alligator-grain leather strap with deployant clasp"
+      ],
+      "materials": "316L Marine-Grade Stainless Steel; Sapphire Glass; Calf Leather",
+      "origin": "Assembled in La Chaux-de-Fonds, Switzerland",
+      "careGuide": "Service movement every 5 years.",
+      "modelInfo": "Balanced 39mm diameter fits all wrists",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "jewelry",
+      "availability": true
+    },
+    {
+      "id": "vl-watch-dress-01",
+      "sku": "VL-WTC-DR-001",
+      "name": "Fluted Gold Bezel Ultra-Thin Dress Watch",
+      "subtitle": "Manual-wind 6.2mm slim dress watch in 18k gold plate",
+      "brand": "Velora Horology",
+      "category": "watches-luxury",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 890,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 4.9,
+      "reviewsCount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "18k Gold Plated / Enamel White Dial",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "36mm Case"
+      ],
+      "description": "Ultra-slim 6.2mm profile designed to slip seamlessly beneath tailored French shirt cuffs. Features hand-fluted gold bezel and blued steel hands.",
+      "details": [
+        "Ultra-thin hand-wound ETA 7001 mechanical movement (42h reserve)",
+        "Cold-enamelled white dial with applied Roman numerals",
+        "Flame-blued feuille hands and sapphire crystal"
+      ],
+      "materials": "Gold-Plated Stainless Steel; Sapphire Crystal; Alligator Leather",
+      "origin": "Assembled in Le Locle, Switzerland",
+      "careGuide": "Wind gently each morning before wear.",
+      "modelInfo": "Classic 36mm dress diameter",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "watches",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ear-01",
+      "sku": "VL-JWL-ER-001",
+      "name": "Akoya Cultured Pearl Drop Earrings",
+      "subtitle": "8mm Japanese Akoya pearls with 18k yellow gold hooks",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-earrings",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 360,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.9,
+      "reviewsCount": 33,
+      "images": [
+        "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Akoya White Luster",
+          "hex": "#FAF0E6",
+          "image": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "description": "Selected for mirror-like luster, these natural Japanese Akoya pearls are hung on hand-formed 18k solid gold wire hooks.",
+      "details": [
+        "8.0-8.5mm AAA Japanese Akoya pearls with high nacre thickness",
+        "Solid 18k yellow gold shepherd hooks",
+        "Subtle rose overtone in natural light"
+      ],
+      "materials": "AAA Japanese Akoya Cultured Pearls; 18k Solid Yellow Gold",
+      "origin": "Harvested in Mie Prefecture, Japan; Set in London",
+      "careGuide": "Wipe with damp silk cloth; avoid perfumes.",
+      "modelInfo": "Ultra-lightweight for all-day comfort",
+      "gender": "women",
+      "department": "jewelry",
+      "subcategory": "rings",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-brc-01",
+      "sku": "VL-JWL-BR-001",
+      "name": "Articulated Diamond Tennis Bracelet",
+      "subtitle": "2.0ct Lab-grown brilliant diamonds in 14k white gold",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-cuffs",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 950,
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 7,
+      "rating": 5,
+      "reviewsCount": 41,
+      "images": [
+        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "14k White Gold",
+          "hex": "#E5E4E2",
+          "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "6.5 Inch",
+        "7.0 Inch"
+      ],
+      "description": "Four-prong articulated links allow this tennis bracelet to drape fluidly around the wrist, catching light at every gesture.",
+      "details": [
+        "2.00 total carat weight (D-E color, VVS clarity)",
+        "Double figure-eight safety catch clasp",
+        "Solid 14k white gold prong settings"
+      ],
+      "materials": "14k Solid White Gold; Ethical Lab-Grown Diamonds",
+      "origin": "Handcrafted in New York City, USA",
+      "careGuide": "Store separately in velvet box.",
+      "modelInfo": "Standard 7-inch length fits most wrists",
+      "gender": "women",
+      "department": "jewelry",
+      "subcategory": "bracelets",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-brc-02",
+      "sku": "VL-JWL-BR-002",
+      "name": "Sculpted Emerald Link Gold Bracelet",
+      "subtitle": "Heavy oval curb links with custom magnetic clasp",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-cuffs",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 490,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "18k Yellow Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "Medium (18cm)",
+        "Large (20cm)"
+      ],
+      "description": "Substantial interlocking curb chain links with beveled edges that shimmer with movement, finished with an invisible safety lock.",
+      "details": [
+        "Solid 925 sterling silver with 5-micron 18k gold plating",
+        "Beveled oval links with high-polish luster",
+        "Concealed push-button safety tongue clasp"
+      ],
+      "materials": "Heavy 18k Gold Plated Solid Sterling Silver",
+      "origin": "Crafted in Vicenza, Italy",
+      "careGuide": "Polish with soft cotton cloth.",
+      "modelInfo": "Substantial 38g weight",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "bracelets",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ear-02",
+      "sku": "VL-JWL-ER-002",
+      "name": "Architectural Pavé Huggie Hoop Earrings",
+      "subtitle": "14k Yellow gold huggie hoops with micro-pavé diamonds",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-earrings",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 320,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 22,
+      "rating": 4.9,
+      "reviewsCount": 63,
+      "images": [
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "14k Yellow Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "11mm Inner Diameter"
+      ],
+      "description": "Everyday luxury huggie hoops set with conflict-free micro-pavé diamonds that snap securely with a reassuring click.",
+      "details": [
+        "0.15 total carat weight diamonds (G-H color, SI1 clarity)",
+        "Seamless snap-bar hinge closure",
+        "Hypoallergenic nickel-free 14k gold posts"
+      ],
+      "materials": "Solid 14k Yellow Gold; Natural Diamonds",
+      "origin": "Crafted in London, England",
+      "careGuide": "Safe for daily wear and sleep.",
+      "modelInfo": "Hugs the earlobe closely and comfortably",
+      "gender": "women",
+      "department": "jewelry",
+      "subcategory": "rings",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-neck-02",
+      "sku": "VL-JWL-NK-002",
+      "name": "Medallion Relic Gold Pendant Necklace",
+      "subtitle": "Ancient coin replica pendant in 18k gold vermeil",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 290,
+      "stock": true,
+      "stockCount": 20,
+      "rating": 4.7,
+      "reviewsCount": 36,
+      "images": [
+        "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Antique Gold",
+          "hex": "#C5A059",
+          "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "45cm + 5cm Extension"
+      ],
+      "description": "Cast from an authentic Greco-Roman relic depicting the goddess Minerva, hung on a diamond-cut box chain.",
+      "details": [
+        "Irregular hand-finished relief border",
+        "20mm pendant diameter",
+        "Adjustable box chain with lobster clasp"
+      ],
+      "materials": "18k Gold Vermeil on Solid Sterling Silver",
+      "origin": "Cast in Athens, Greece",
+      "careGuide": "Keep dry and store in jewelry pouch.",
+      "modelInfo": "Pendant sits gracefully at mid-chest",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "necklaces",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ring-02",
+      "sku": "VL-JWL-RG-002",
+      "name": "Bespoke Emerald Cut Solitaire Ring",
+      "subtitle": "1.5ct Lab emerald-cut diamond in platinum bezel",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-rings",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 1100,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 5,
+      "rating": 5,
+      "reviewsCount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Solid 950 Platinum",
+          "hex": "#E5E4E2",
+          "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 5",
+        "US 6",
+        "US 7",
+        "US 8"
+      ],
+      "description": "A breathtaking 1.50ct emerald-cut diamond mounted in a low-profile half-bezel platinum ring setting.",
+      "details": [
+        "1.50ct Emerald Cut Diamond (D color, VVS1 clarity)",
+        "Substantial 950 platinum cast band",
+        "Low-profile design avoids snagging"
+      ],
+      "materials": "Solid 950 Platinum; Lab-Grown Certified Diamond",
+      "origin": "Handcrafted in Hatton Garden, London",
+      "careGuide": "Clean with soft toothbrush and mild soapy water.",
+      "modelInfo": "Includes IGI certification dossier",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "rings",
+      "availability": true
+    },
+    {
+      "id": "vl-watch-auto-02",
+      "sku": "VL-WTC-AT-002",
+      "name": "Vanguard Titanium Diver Automatic Watch",
+      "subtitle": "Grade 5 titanium 300m professional tool watch",
+      "brand": "Velora Horology",
+      "category": "watches-luxury",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 1450,
+      "stock": true,
+      "stockCount": 5,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Matte Titanium Grey",
+          "hex": "#787878",
+          "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "41mm Case"
+      ],
+      "description": "Engineered from featherlight Grade 5 titanium with ceramic unidirectional 120-click bezel and helium escape valve.",
+      "details": [
+        "Calibre V-02 COSC-certified chronometer automatic movement (70h reserve)",
+        "Scratchproof matte ceramic dive bezel with Super-LumiNova BGW9",
+        "300m / 30 ATM depth rating with screw-down crown"
+      ],
+      "materials": "Grade 5 Titanium; Matte Ceramic; Sapphire Glass",
+      "origin": "Manufactured in Bienne, Switzerland",
+      "careGuide": "Rinse with fresh water after saltwater immersion.",
+      "modelInfo": "Ultra-lightweight 84g on wrist",
+      "gender": "men",
+      "department": "jewelry",
+      "subcategory": "watches",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ring-03",
+      "sku": "VL-JWL-RG-003",
+      "name": "Verona Faceted Cushion Gemstone Ring",
+      "subtitle": "London blue topaz in 14k yellow gold setting",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-rings",
+      "group": "Jewelry",
+      "collectionId": "col-spring",
+      "price": 480,
+      "stock": true,
+      "stockCount": 12,
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "London Blue Topaz / Gold",
+          "hex": "#0047AB",
+          "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "US 6",
+        "US 7",
+        "US 8"
+      ],
+      "description": "Deep oceanic London blue topaz cushion cut to maximize internal light dispersion, held by split claw prongs.",
+      "details": [
+        "3.2ct natural cushion-cut London Blue Topaz",
+        "Split four-claw prong setting in 14k gold",
+        "Slender tapered band with interior hallmark"
+      ],
+      "materials": "Natural London Blue Topaz; 14k Yellow Gold",
+      "origin": "Handcrafted in Florence, Italy",
+      "careGuide": "Avoid harsh ultrasonic cleansers.",
+      "modelInfo": "True to ring size",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "rings",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-neck-03",
+      "sku": "VL-JWL-NK-003",
+      "name": "Sovereign Oval Locket Necklace",
+      "subtitle": "Engravable 18k gold vermeil keepsake locket",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 340,
+      "stock": true,
+      "stockCount": 17,
+      "rating": 4.9,
+      "reviewsCount": 44,
+      "images": [
+        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Hand-Engraved Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "50cm Rope Chain"
+      ],
+      "description": "Traditional hinged locket that opens to house two cherished photographs, suspended from a twisted French rope chain.",
+      "details": [
+        "Precision snap closure hinges",
+        "Houses two trimmed photographs behind crystal covers",
+        "Intricate starburst engraving on face"
+      ],
+      "materials": "18k Yellow Gold Vermeil over Sterling Silver",
+      "origin": "Crafted in Birmingham Jewellery Quarter, England",
+      "careGuide": "Wipe with polishing cloth.",
+      "modelInfo": "Timeless heirloom silhouette",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "necklaces",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-ear-03",
+      "sku": "VL-JWL-ER-003",
+      "name": "Sculptural Hollow Chunky Gold Hoops",
+      "subtitle": "Lightweight tubular 18k gold vermeil hoop earrings",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-earrings",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 240,
+      "isBestSeller": true,
+      "stock": true,
+      "stockCount": 26,
+      "rating": 4.8,
+      "reviewsCount": 58,
+      "images": [
+        "https://images.unsplash.com/photo-1598560917505-59a3ad559071?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Polished Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1598560917505-59a3ad559071?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "25mm Outer Diameter"
+      ],
+      "description": "Engineered with hollow tubing to offer bold chunky volume without weighing down delicate earlobes.",
+      "details": [
+        "Hollow hydroformed tubing for featherweight comfort",
+        "25mm diameter with 5mm tube thickness",
+        "Secure click-top snap bar"
+      ],
+      "materials": "18k Gold Vermeil on 925 Sterling Silver",
+      "origin": "Crafted in Arezzo, Italy",
+      "careGuide": "Safe for all-day continuous wear.",
+      "modelInfo": "Weights only 4.2 grams per hoop",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "jewelry",
+      "availability": true
+    },
+    {
+      "id": "vl-watch-auto-03",
+      "sku": "VL-WTC-AT-003",
+      "name": "Cap Ferrat Dual-Time GMT Watch",
+      "subtitle": "Automatic dual-time GMT movement with bi-color bezel",
+      "brand": "Velora Horology",
+      "category": "watches-luxury",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 1380,
+      "isNew": true,
+      "stock": true,
+      "stockCount": 7,
+      "rating": 4.9,
+      "reviewsCount": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Steel & Emerald/Black Bezel",
+          "hex": "#163E2B",
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "40mm Case"
+      ],
+      "description": "The global traveler's companion: independently adjustable 24-hour GMT hand tracks two time zones simultaneously.",
+      "details": [
+        "True GMT automatic movement with jumping local hour hand",
+        "Bi-directional 24-hour ceramic bezel in Velora emerald and black",
+        "Solid-link stainless steel oyster bracelet with micro-adjust clasp"
+      ],
+      "materials": "316L Stainless Steel; High-Tech Ceramic Bezel; Sapphire Glass",
+      "origin": "Assembled in Biel/Bienne, Switzerland",
+      "careGuide": "Service movement every 5-7 years.",
+      "modelInfo": "40mm diameter with 48mm lug-to-lug",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "watches",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-neck-04",
+      "sku": "VL-JWL-NK-004",
+      "name": "Baroque Freshwater Pearl Strand",
+      "subtitle": "Hand-knotted organic baroque pearls with 14k gold ball clasp",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-spring",
+      "price": 460,
+      "stock": true,
+      "stockCount": 13,
+      "rating": 4.9,
+      "reviewsCount": 39,
+      "images": [
+        "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Iridescent Pearl",
+          "hex": "#FDF5E6",
+          "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "45cm (18 Inch)"
+      ],
+      "description": "Each organically irregular freshwater baroque pearl possesses unique contours, individually hand-knotted on pure silk thread.",
+      "details": [
+        "10-12mm organic baroque freshwater pearls",
+        "Hand-knotted with silk thread between each pearl",
+        "14k yellow gold filigree safety ball clasp"
+      ],
+      "materials": "Natural Baroque Freshwater Pearls; Pure Silk; 14k Gold Clasp",
+      "origin": "Assembled by hand in London, England",
+      "careGuide": "Put pearls on last after makeup and perfumes.",
+      "modelInfo": "Organic unique shapes on every piece",
+      "gender": "women",
+      "department": "jewelry",
+      "subcategory": "jewelry",
+      "availability": true
+    },
+    {
+      "id": "vl-jewel-chain-02",
+      "sku": "VL-JWL-CH-002",
+      "name": "Belcher Round Link Solid Gold Chain",
+      "subtitle": "Diamond-cut round belcher links in 14k gold",
+      "brand": "Velora Fine Jewelry",
+      "category": "jewelry-necklaces",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 520,
+      "stock": true,
+      "stockCount": 16,
+      "rating": 4.8,
+      "reviewsCount": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "14k Yellow Gold",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "50cm",
+        "60cm"
+      ],
+      "description": "Heavy circular belcher links precision diamond-cut to catch glancing light, ideal worn solo or with our relic pendants.",
+      "details": [
+        "Diamond-cut edges on 4mm rounded links",
+        "Substantial solid 14k yellow gold construction",
+        "Heavy-duty soldered end loops with lobster clasp"
+      ],
+      "materials": "Solid 14k Yellow Gold",
+      "origin": "Crafted in Vicenza, Italy",
+      "careGuide": "Clean with mild dish soap and warm water.",
+      "modelInfo": "Heavy 28g solid gold weight",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "jewelry",
+      "availability": true
+    },
+    {
+      "id": "vl-watch-dress-02",
+      "sku": "VL-WTC-DR-002",
+      "name": "Regent Cushion Sector Dial Watch",
+      "subtitle": "1930s Art Deco cushion-cased manual mechanical timepiece",
+      "brand": "Velora Horology",
+      "category": "watches-luxury",
+      "group": "Jewelry",
+      "collectionId": "col-evening",
+      "price": 940,
+      "stock": true,
+      "stockCount": 8,
+      "rating": 5,
+      "reviewsCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Steel & Two-Tone Sector Dial",
+          "hex": "#C0C0C0",
+          "image": "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?q=80&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "38mm Cushion Case"
+      ],
+      "description": "Inspired by golden-age 1930s chronometers: step-bezel cushion case with silver two-tone sector dial and small sub-seconds register.",
+      "details": [
+        "Manual-wind mechanical movement visible through exhibition caseback",
+        "Two-tone silver and ruthenium sector dial with blued feuille hands",
+        "Sartorial grey French suede strap with quick-release spring bars"
+      ],
+      "materials": "316L Stainless Steel; Sapphire Crystal; French Calf Suede",
+      "origin": "Assembled in Geneva, Switzerland",
+      "careGuide": "Keep away from strong magnetic fields.",
+      "modelInfo": "38mm cushion case wears elegantly on all wrists",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "watches",
+      "availability": true
+    },
+    {
+      "id": "vl-fragrance-elixir-01",
+      "sku": "VL-FRAG-ELX-001",
+      "name": "L'Élixir Velora Extrait de Parfum",
+      "subtitle": "Rare Florentine orris, dark cedarwood, and smoky ambergris flacon",
+      "brand": "Velora Haute Parfumerie",
+      "category": "jewelry-fragrance",
+      "group": "Jewelry",
+      "collectionId": "col-staples",
+      "price": 285,
+      "originalPrice": 320,
+      "discount": 10,
+      "isNew": true,
+      "isBestSeller": true,
+      "isFeatured": true,
+      "stock": true,
+      "stockCount": 14,
+      "rating": 5,
+      "reviewsCount": 46,
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=85&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=85&w=1200&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Amber Extrait Flacon",
+          "hex": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=85&w=1200&auto=format&fit=crop"
+        }
+      ],
+      "sizes": [
+        "100ml / 3.4 FL. OZ."
+      ],
+      "description": "Distilled in Grasse, France using centuries-old enfleurage. Florentine orris root aged for three years is layered over smoky Atlas cedar and sustainably harvested ambergris.",
+      "details": [
+        "32% oil concentration (pure Extrait de Parfum)",
+        "Heavy lead-free crystal flacon with magnetic gold-plated zamac cap",
+        "Hand-numbered batch certificate signed by the master perfumer in Grasse"
+      ],
+      "materials": "Pure Perfume Extract; French Crystal Glass; Gold-Plated Zamac",
+      "origin": "Handcrafted & Distilled in Grasse, France",
+      "careGuide": "Store away from direct sunlight and heat.",
+      "modelInfo": "100ml Extrait with 14+ hour longevity",
+      "gender": "unisex",
+      "department": "jewelry",
+      "subcategory": "fragrance",
+      "availability": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "women-outerwear",
+      "name": "Outerwear & Coats",
+      "slug": "outerwear",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1200&auto=format&fit=crop",
+      "description": "Double-breasted trench coats, wool overcoats, and tailored wrap coats crafted in England.",
+      "itemCount": 8
+    },
+    {
+      "id": "women-blazers",
+      "name": "Tailored Blazers",
+      "slug": "blazers",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1548624149-f9b1859aa9d0?q=80&w=1200&auto=format&fit=crop",
+      "description": "Architectural shoulder lines, relaxed wool-blend suiting, and double-breasted tailoring.",
+      "itemCount": 6
+    },
+    {
+      "id": "women-dresses",
+      "name": "Dresses & Evening Gowns",
+      "slug": "dresses",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1200&auto=format&fit=crop",
+      "description": "Minimalist column slip dresses, fluid mulberry silk gowns, and pleated daywear.",
+      "itemCount": 7
+    },
+    {
+      "id": "women-tops",
+      "name": "Tops & Shirting",
+      "slug": "tops",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+      "description": "Crisp Egyptian cotton poplin shirts, asymmetric drapery, and ribbed knit camisoles.",
+      "itemCount": 7
+    },
+    {
+      "id": "women-knitwear",
+      "name": "Cashmere & Knitwear",
+      "slug": "knitwear",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1200&auto=format&fit=crop",
+      "description": "Fine-gauge Mongolian cashmere, chunky ribbed turtlenecks, and relaxed cardigans.",
+      "itemCount": 8
+    },
+    {
+      "id": "women-trousers",
+      "name": "Trousers & Pants",
+      "slug": "trousers",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop",
+      "description": "High-waisted wide leg wool trousers, pleated fluid silhouettes, and straight-cut tailoring.",
+      "itemCount": 6
+    },
+    {
+      "id": "women-denim",
+      "name": "Denim & Jeans",
+      "slug": "denim",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop",
+      "description": "Rigid organic cotton denim, vintage straight cuts, and raw indigo washes.",
+      "itemCount": 5
+    },
+    {
+      "id": "women-skirts",
+      "name": "Skirts & Columns",
+      "slug": "skirts",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=90&w=1200&auto=format&fit=crop",
+      "description": "Bias-cut silk satin skirts, wool column midis, and structural wrap styles.",
+      "itemCount": 5
+    },
+    {
+      "id": "women-loungewear",
+      "name": "Silk Sets & Loungewear",
+      "slug": "loungewear",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1200&auto=format&fit=crop",
+      "description": "Ultra-soft cashmere lounge pants, silk robes, and seamless camisoles.",
+      "itemCount": 4
+    },
+    {
+      "id": "women-footwear",
+      "name": "Artisan Boots & Heels",
+      "slug": "women-footwear",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1200&auto=format&fit=crop",
+      "description": "Handcrafted leather ankle boots, sculpted block heels, and minimal mules.",
+      "itemCount": 5
+    },
+    {
+      "id": "men-outerwear",
+      "name": "Outerwear & Overcoats",
+      "slug": "outerwear",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop",
+      "description": "Double-faced wool overcoats, raglan cashmere blend coats, and storm-proof macs.",
+      "itemCount": 7
+    },
+    {
+      "id": "men-blazers",
+      "name": "Blazers & Tailoring",
+      "slug": "blazers",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop",
+      "description": "Unstructured hopsack blazers, double-breasted navy jackets, and bespoke trousers.",
+      "itemCount": 5
+    },
+    {
+      "id": "men-jackets",
+      "name": "Jackets & Overshirts",
+      "slug": "jackets",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?q=80&w=1200&auto=format&fit=crop",
+      "description": "Minimalist zip jackets, heavyweight twill overshirts, and unlined wool utility jackets.",
+      "itemCount": 6
+    },
+    {
+      "id": "men-shirts",
+      "name": "Shirts & Shirting",
+      "slug": "shirts",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1200&auto=format&fit=crop",
+      "description": "Relaxed poplin button-downs, camp collar linen shirts, and brushed flannel staples.",
+      "itemCount": 7
+    },
+    {
+      "id": "men-tshirts",
+      "name": "T-Shirts & Polos",
+      "slug": "t-shirts",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=1200&auto=format&fit=crop",
+      "description": "Heavyweight organic jersey tees, merino knitted polos, and relaxed crewnecks.",
+      "itemCount": 6
+    },
+    {
+      "id": "men-knitwear",
+      "name": "Knitwear & Sweaters",
+      "slug": "knitwear",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?q=80&w=1200&auto=format&fit=crop",
+      "description": "Waffle-knit merino wool, mock neck pullovers, and Scottish lambswool cardigans.",
+      "itemCount": 6
+    },
+    {
+      "id": "men-trousers",
+      "name": "Trousers & Chinos",
+      "slug": "trousers",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=1200&auto=format&fit=crop",
+      "description": "Single-pleat tailored wool trousers, relaxed cotton chinos, and drawstring dress pants.",
+      "itemCount": 6
+    },
+    {
+      "id": "men-denim",
+      "name": "Denim & Selvedge",
+      "slug": "denim",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1542272604-780c96856592?q=80&w=1200&auto=format&fit=crop",
+      "description": "Japanese selvedge denim, classic straight cut, and washed black minimal denim.",
+      "itemCount": 5
+    },
+    {
+      "id": "men-loungewear",
+      "name": "Cashmere Loungewear",
+      "slug": "men-loungewear",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?q=80&w=1200&auto=format&fit=crop",
+      "description": "Relaxed cashmere joggers, waffle robes, and premium organic cotton lounge sets.",
+      "itemCount": 4
+    },
+    {
+      "id": "men-footwear",
+      "name": "Derbies & Loafers",
+      "slug": "men-footwear",
+      "group": "Men",
+      "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1200&auto=format&fit=crop",
+      "description": "Goodyear-welted dress shoes, suede loafers, and minimalist leather sneakers.",
+      "itemCount": 6
+    },
+    {
+      "id": "acc-bags",
+      "name": "Bags & Leather Totes",
+      "slug": "bags",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=1200&auto=format&fit=crop",
+      "description": "Full-grain Tuscan calfskin totes, structured shoulder bags, and suede messengers.",
+      "itemCount": 7
+    },
+    {
+      "id": "acc-travel",
+      "name": "Travel & Weekender Bags",
+      "slug": "travel",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1200&auto=format&fit=crop",
+      "description": "Canvas and bridle leather holdalls, duffles, and garment carriers.",
+      "itemCount": 4
+    },
+    {
+      "id": "acc-footwear",
+      "name": "Artisan Footwear & Loafers",
+      "slug": "footwear",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?q=80&w=1200&auto=format&fit=crop",
+      "description": "Hand-stitched leather loafers, Chelsea boots, and minimal court sneakers.",
+      "itemCount": 7
+    },
+    {
+      "id": "acc-belts",
+      "name": "Belts & Small Goods",
+      "slug": "belts",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1200&auto=format&fit=crop",
+      "description": "Saddle leather belts with minimal brass hardware and zipped card cases.",
+      "itemCount": 5
+    },
+    {
+      "id": "acc-sunglasses",
+      "name": "Sunglasses & Eyewear",
+      "slug": "eyewear",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1200&auto=format&fit=crop",
+      "description": "Hand-polished Japanese acetate sunglasses with 100% UV Zeiss lenses.",
+      "itemCount": 5
+    },
+    {
+      "id": "acc-jewelry",
+      "name": "Fine Jewelry & Cuffs",
+      "slug": "jewelry",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop",
+      "description": "Sculptural 18k gold vermeil cuffs, recycled silver bands, and minimal pendants.",
+      "itemCount": 6
+    },
+    {
+      "id": "acc-watches",
+      "name": "Timepieces & Watches",
+      "slug": "watches",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop",
+      "description": "Minimalist Swiss-movement watches with vegetable-tanned leather straps.",
+      "itemCount": 4
+    },
+    {
+      "id": "acc-scarves",
+      "name": "Scarves & Cashmere Wraps",
+      "slug": "scarves",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1200&auto=format&fit=crop",
+      "description": "Featherlight woven cashmere shawls, fringed wool stoles, and silk neckties.",
+      "itemCount": 4
+    },
+    {
+      "id": "acc-hats",
+      "name": "Hats & Headwear",
+      "slug": "hats",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?q=90&w=1200&auto=format&fit=crop",
+      "description": "Hand-blocked felt fedoras, ribbed cashmere beanies, and wool berets.",
+      "itemCount": 4
+    },
+    {
+      "id": "acc-fragrance",
+      "name": "Haute Parfumerie & Fragrance",
+      "slug": "fragrance",
+      "group": "Accessories",
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=90&w=1200&auto=format&fit=crop",
+      "description": "Rare botanical extraits de parfum and artisanal amber glass candle vessels.",
+      "itemCount": 5
+    },
+    {
+      "id": "women-evening",
+      "name": "Haute Evening & Gala",
+      "slug": "evening",
+      "group": "Women",
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=90&w=1200&auto=format&fit=crop",
+      "description": "Floor-length sculpted velvet and obsidian silk charmeuse bespoke gowns.",
+      "itemCount": 6
+    },
+    {
+      "id": "kids-outerwear",
+      "name": "Kids Outerwear & Coats",
+      "slug": "kids-outerwear",
+      "group": "Kids",
+      "image": "https://images.unsplash.com/photo-1543332164-6e82f355badc?q=80&w=1200&auto=format&fit=crop",
+      "description": "English melton wool duffel coats, weatherproof waxed field parkas, and hooded down jackets.",
+      "itemCount": 4
+    },
+    {
+      "id": "kids-knitwear",
+      "name": "Cashmere & Wool Knitwear",
+      "slug": "kids-knitwear",
+      "group": "Kids",
+      "image": "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?q=80&w=1200&auto=format&fit=crop",
+      "description": "Grade-A Scottish cashmere cable crews, organic merino cardigans, and ribbed beanie sets.",
+      "itemCount": 5
+    },
+    {
+      "id": "kids-dresses",
+      "name": "Girls Dresses & Rompers",
+      "slug": "kids-dresses",
+      "group": "Kids",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200&auto=format&fit=crop",
+      "description": "Hand-smocked Liberty cotton party frocks, silk-blend velvet dresses, and washed flax rompers.",
+      "itemCount": 4
+    },
+    {
+      "id": "kids-tailoring",
+      "name": "Junior Tailoring & Shirts",
+      "slug": "kids-tailoring",
+      "group": "Kids",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1200&auto=format&fit=crop",
+      "description": "Unstructured Neapolitan wool blazers, organic cotton Breton sailor shirts, and tailored trousers.",
+      "itemCount": 4
+    },
+    {
+      "id": "kids-footwear",
+      "name": "Artisan Kids Footwear",
+      "slug": "kids-footwear",
+      "group": "Kids",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop",
+      "description": "Handcrafted Italian calfskin Chelsea boots and soft nappa leather T-bar shoes.",
+      "itemCount": 3
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-aw25",
+      "name": "Autumn / Winter 2025",
+      "slug": "autumn-winter-2025",
+      "headline": "The Architecture of Form",
+      "description": "Clean tailoring, heavy wools, and sculptural silhouettes designed for effortless urban winter layering.",
+      "coverImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1400&auto=format&fit=crop",
+      "season": "AW 2025",
+      "itemCount": 22
+    },
+    {
+      "id": "col-essentials",
+      "name": "The Minimalist Uniform",
+      "slug": "minimalist-uniform",
+      "headline": "Everyday Permanence",
+      "description": "Timeless foundation pieces: organic cotton poplin, virgin wool trousers, and signature knitwear.",
+      "coverImage": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1400&auto=format&fit=crop",
+      "season": "Core Essentials",
+      "itemCount": 18
+    },
+    {
+      "id": "col-evening",
+      "name": "Evening Noir",
+      "slug": "evening-noir",
+      "headline": "Fluid Elegance",
+      "description": "Deep obsidian silks, bias-cut drapery, and understated evening suiting for nocturnal occasions.",
+      "coverImage": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1400&auto=format&fit=crop",
+      "season": "Evening Capsule",
+      "itemCount": 12
+    },
+    {
+      "id": "col-cashmere",
+      "name": "Pure Cashmere Edit",
+      "slug": "pure-cashmere",
+      "headline": "Tactile Warmth",
+      "description": "Spun from grade-A Mongolian cashmere fibers for extraordinary softness and multi-decade longevity.",
+      "coverImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1400&auto=format&fit=crop",
+      "season": "Limited Spin",
+      "itemCount": 10
+    },
+    {
+      "id": "col-tailoring",
+      "name": "Studio Bespoke Tailoring",
+      "slug": "bespoke-tailoring",
+      "headline": "Crafted Precision",
+      "description": "Full-canvas blazers, sculpted waistlines, and hand-finished lapels from our Yorkshire studio.",
+      "coverImage": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1400&auto=format&fit=crop",
+      "season": "Atelier Signature",
+      "itemCount": 14
+    }
+  ],
+  "orders": [
+    {
+      "id": "VL-84920",
+      "date": "August 28, 2025",
+      "status": "in_transit",
+      "step": 2,
+      "trackingNumber": "DHL-EU-8921049281",
+      "courier": "DHL Carbon Neutral Express",
+      "estimatedDelivery": "September 5, 2025",
+      "items": [
+        {
+          "productId": "vl-trench-01",
+          "productName": "Castleford Storm Gabardine Trench Coat",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1200&auto=format&fit=crop",
+          "price": 680,
+          "quantity": 1,
+          "size": "UK 8 / US 4",
+          "color": "Honey Sand",
+          "sku": "VL-W-OUT-001"
+        }
+      ],
+      "subtotal": 680,
+      "discount": 0,
+      "tax": 47.6,
+      "shippingCost": 0,
+      "total": 727.6,
+      "deliveryMethod": "standard",
+      "paymentMethod": "card",
+      "shippingAddress": {
+        "fullName": "Genevieve Laurent",
+        "email": "genevieve.laurent@velora.com",
+        "address": "14 Mayfair Square, Flat 3B",
+        "city": "London",
+        "postal": "W1J 8AJ",
+        "country": "United Kingdom",
+        "phone": "+44 20 7946 0912"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Genevieve Laurent",
+      "email": "genevieve.laurent@velora.com",
+      "phone": "+44 20 7946 0912",
+      "role": "customer",
+      "memberSince": "2024",
+      "preferredLanguage": "English (UK)",
+      "preferredCurrency": "USD"
+    },
+    {
+      "id": "usr-admin",
+      "name": "Velora Atelier Director",
+      "email": "admin@velora.com",
+      "phone": "+44 20 7946 0000",
+      "role": "admin",
+      "memberSince": "2023",
+      "preferredLanguage": "English (UK)",
+      "preferredCurrency": "USD"
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-09-15T13:21:33.001Z",
+    "version": "2.0.0"
+  }
+}
